@@ -19,8 +19,8 @@ const AutresPrestations = () => {
         {/* Intro */}
         <section className="section-padding" aria-label="Présentation des prestations">
           <div className="container-narrow mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl md:text-4xl mb-6">
-              De l'entretien et des réparations
+            <h2 className="text-3xl md:text-4xl mb-8">
+              Entretien et réparations
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               En plus de l'expertise en places de jeux, Olivier Pittet vous accompagne toute l'année
@@ -35,15 +35,15 @@ const AutresPrestations = () => {
         </section>
 
         {/* Services Grid */}
-        <section className="section-padding bg-warm-cream" aria-label="Liste des prestations">
+        <section className="section-padding bg-secondary" aria-label="Liste des prestations">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-3">
+            <div className="text-center mb-16">
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
                 Nos prestations
               </p>
               <h2 className="text-3xl md:text-4xl">Ce que nous proposons</h2>
             </div>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-10">
               {[
                 {
                   icon: Home,
@@ -80,13 +80,13 @@ const AutresPrestations = () => {
                   ],
                 },
               ].map((service) => (
-                <div key={service.title} className="bg-background rounded-lg p-8 shadow-sm">
-                  <service.icon className="w-10 h-10 text-primary mb-4" />
-                  <h3 className="text-xl mb-4">{service.title}</h3>
-                  <ul className="space-y-2">
+                <div key={service.title} className="bg-background p-10">
+                  <service.icon className="w-8 h-8 text-foreground mb-6" />
+                  <h3 className="text-lg mb-4">{service.title}</h3>
+                  <ul className="space-y-3">
                     {service.items.map((item) => (
                       <li key={item} className="text-sm text-muted-foreground flex items-start gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-primary mt-1.5 shrink-0" />
+                        <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2 shrink-0" />
                         {item}
                       </li>
                     ))}
@@ -100,8 +100,8 @@ const AutresPrestations = () => {
         {/* Institutions */}
         <section className="section-padding" aria-label="Aménagements pour institutions">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-3">
+            <div className="text-center mb-16">
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
                 Aménagements spécialisés
               </p>
               <h2 className="text-3xl md:text-4xl mb-4">Institutions & Écoles</h2>
@@ -110,7 +110,7 @@ const AutresPrestations = () => {
                 le bien-être grâce à l'aménagement de l'environnement.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
                   title: "Aménagement extérieur institutions",
@@ -137,8 +137,8 @@ const AutresPrestations = () => {
                   desc: "Maintenance, suivi sécurité, fabrication de meubles sur mesure, entretien du matériel d'enseignement.",
                 },
               ].map((item) => (
-                <div key={item.title} className="bg-card rounded-lg p-6">
-                  <h3 className="text-lg mb-2">{item.title}</h3>
+                <div key={item.title} className="border border-border p-8">
+                  <h3 className="text-base mb-2">{item.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
                 </div>
               ))}
