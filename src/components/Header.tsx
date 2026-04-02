@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container-narrow mx-auto flex items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="https://pittet-amenagements.ch/wp-content/uploads/2023/03/Pittet-amenagement-logo.png"
+            src={pittetLogo}
             alt="Pittet Aménagements - Expert en places de jeux et aménagements en Suisse"
             className="h-14"
           />
