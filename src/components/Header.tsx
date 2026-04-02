@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
+import pittetLogo from "@/assets/pittet-logo.png";
 
 const navItems = [
   { label: "Accueil", path: "/" },
