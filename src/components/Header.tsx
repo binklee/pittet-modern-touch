@@ -16,12 +16,12 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container-narrow mx-auto flex items-center justify-between px-6 py-3">
+      <div className="container-narrow mx-auto flex items-center justify-between px-6 py-2">
         <Link to="/" className="flex items-center gap-3">
           <img
             src={pittetLogo}
             alt="Pittet Aménagements - Expert en places de jeux et aménagements en Suisse"
-            className="h-14"
+            className="h-20"
           />
         </Link>
 
