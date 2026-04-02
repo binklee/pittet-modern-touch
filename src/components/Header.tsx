@@ -21,7 +21,7 @@ const Header = () => {
           <img
             src={pittetLogo}
             alt="Pittet Aménagements - Expert en places de jeux et aménagements en Suisse"
-            className="h-14"
+            className="h-20"
           />
         </Link>
 
