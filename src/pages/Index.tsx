@@ -36,7 +36,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/expertise-places-de-jeux"
-                className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-terracotta-light text-base font-semibold tracking-wide px-8 py-3 rounded-md transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground hover:bg-red-accent-light text-base font-semibold tracking-wide px-8 py-3 rounded-md transition-colors"
               >
                 Expertise Places de Jeux
                 <ArrowRight className="w-5 h-5" />

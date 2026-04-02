@@ -40,7 +40,7 @@ const Header = () => {
           ))}
           <a
             href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-terracotta-light transition-colors"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-red-accent-light transition-colors"
           >
             <Phone className="w-4 h-4" />
             Contact

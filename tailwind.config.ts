@@ -51,19 +51,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        terracotta: {
-          DEFAULT: "hsl(var(--terracotta))",
-          light: "hsl(var(--terracotta-light))",
+        "red-accent": {
+          DEFAULT: "hsl(var(--red-accent))",
+          light: "hsl(var(--red-light))",
         },
         charcoal: {
           DEFAULT: "hsl(var(--charcoal))",
           light: "hsl(var(--charcoal-light))",
         },
-        wood: {
-          DEFAULT: "hsl(var(--wood))",
-          light: "hsl(var(--wood-light))",
-        },
-        sage: "hsl(var(--sage))",
         "warm-cream": "hsl(var(--warm-cream))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
