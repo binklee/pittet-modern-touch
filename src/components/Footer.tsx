@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import pittetLogo from "@/assets/pittet-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Company */}
           <div>
             <img
-              src="https://pittet-amenagements.ch/wp-content/uploads/2023/03/Pittet-amenagement-logo.png"
+              src={pittetLogo}
               alt="Pittet Aménagements"
               className="h-14 mb-4 brightness-0 invert"
             />

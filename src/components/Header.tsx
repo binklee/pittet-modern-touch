@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
+import pittetLogo from "@/assets/pittet-logo.png";
 
 const navItems = [
   { label: "Accueil", path: "/" },
@@ -18,7 +19,7 @@ const Header = () => {
       <div className="container-narrow mx-auto flex items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-3">
           <img
-            src="https://pittet-amenagements.ch/wp-content/uploads/2023/03/Pittet-amenagement-logo.png"
+            src={pittetLogo}
             alt="Pittet Aménagements - Expert en places de jeux et aménagements en Suisse"
             className="h-14"
           />
@@ -39,7 +40,7 @@ const Header = () => {
           ))}
           <a
             href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-terracotta-light transition-colors"
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-red-accent-light transition-colors"
           >
             <Phone className="w-4 h-4" />
             Contact
