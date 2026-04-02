@@ -35,17 +35,11 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                to="/expertise-places-de-jeux"
+                to="/realisations"
                 className="inline-flex items-center justify-center gap-2 bg-white text-foreground hover:bg-white/90 text-xs font-semibold tracking-[0.1em] uppercase px-8 py-4 transition-colors"
               >
-                Expertise Places de Jeux
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                to="/realisations"
-                className="inline-flex items-center justify-center gap-2 border border-white/40 text-white hover:bg-white/10 text-xs font-semibold tracking-[0.1em] uppercase px-8 py-4 transition-colors"
-              >
                 Nos réalisations
+                <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
