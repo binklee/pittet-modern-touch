@@ -25,13 +25,13 @@ const Index = () => {
           <div className="absolute inset-0 bg-secondary/60" />
           <div className="relative z-10 px-6 md:px-12 lg:px-20 max-w-3xl mt-20 animate-fade-in-up">
             <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-4">
-              Expert en places de jeux · Suisse
+              Suisse · Depuis 2022
             </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl text-secondary-foreground leading-tight mb-6">
-              Pittet Aménagements
+              Aménagements sur mesure
             </h1>
             <p className="text-lg md:text-xl text-secondary-foreground/80 font-sans font-light mb-8 max-w-xl">
-              Contrôle, expertise et aménagement de places de jeux. Installations sur mesure pour communes, écoles et institutions en Suisse.
+              Expert en places de jeux, aménagements intérieurs & extérieurs pour communes, écoles et institutions en Suisse.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
