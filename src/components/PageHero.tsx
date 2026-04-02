@@ -17,12 +17,12 @@ const PageHero = ({ title, subtitle, image, compact = false }: PageHeroProps) =>
         width={1920}
         height={1080}
       />
-      <div className="absolute inset-0 bg-secondary/70" />
+      <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 px-6 max-w-3xl animate-fade-in-up">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl text-secondary-foreground mb-4 leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl text-white mb-4 leading-tight">
           {title}
         </h1>
-        <p className="text-lg md:text-xl text-secondary-foreground/80 font-sans font-light">
+        <p className="text-lg md:text-xl text-white/60 font-light">
           {subtitle}
         </p>
       </div>

@@ -19,12 +19,12 @@ const ExpertisePlacesDeJeux = () => {
 
         {/* Intro */}
         <section className="section-padding" aria-label="Introduction expertise">
-          <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-12 items-center">
+          <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-3">
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
                 Notre expertise
               </p>
-              <h2 className="text-3xl md:text-4xl mb-6 leading-snug">
+              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
                 La sécurité de vos places de jeux, notre priorité
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -42,7 +42,7 @@ const ExpertisePlacesDeJeux = () => {
             <img
               src={expertiseControle}
               alt="Inspection de sécurité d'une place de jeux"
-              className="rounded-lg shadow-xl w-full object-cover aspect-[4/3]"
+              className="w-full object-cover aspect-[4/3]"
               loading="lazy"
               width={1920}
               height={1080}
@@ -51,17 +51,17 @@ const ExpertisePlacesDeJeux = () => {
         </section>
 
         {/* Services */}
-        <section className="section-padding bg-warm-cream" aria-label="Prestations places de jeux">
+        <section className="section-padding bg-secondary" aria-label="Prestations places de jeux">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-primary font-semibold tracking-widest uppercase text-sm mb-3">
+            <div className="text-center mb-16">
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
                 Nos prestations
               </p>
-              <h2 className="text-3xl md:text-4xl mb-4">
+              <h2 className="text-3xl md:text-4xl">
                 Un accompagnement complet
               </h2>
             </div>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-10">
               {[
                 {
                   icon: ClipboardCheck,
@@ -86,10 +86,10 @@ const ExpertisePlacesDeJeux = () => {
               ].map((service) => (
                 <div
                   key={service.title}
-                  className="bg-background rounded-lg p-8 shadow-sm"
+                  className="bg-background p-10"
                 >
-                  <service.icon className="w-10 h-10 text-primary mb-4" />
-                  <h3 className="text-xl mb-3">{service.title}</h3>
+                  <service.icon className="w-8 h-8 text-foreground mb-6" />
+                  <h3 className="text-lg mb-3">{service.title}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{service.desc}</p>
                 </div>
               ))}
@@ -100,10 +100,10 @@ const ExpertisePlacesDeJeux = () => {
         {/* For whom */}
         <section className="section-padding" aria-label="Pour qui">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl mb-4">À qui s'adresse notre expertise ?</h2>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl">À qui s'adresse notre expertise ?</h2>
             </div>
-            <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-3 gap-10 text-center">
               {[
                 {
                   title: "Communes",
@@ -118,8 +118,8 @@ const ExpertisePlacesDeJeux = () => {
                   desc: "Aménagements adaptés pour les institutions spécialisées et centres d'accueil.",
                 },
               ].map((item) => (
-                <div key={item.title} className="bg-card rounded-lg p-8">
-                  <h3 className="text-xl mb-3">{item.title}</h3>
+                <div key={item.title} className="p-8">
+                  <h3 className="text-lg mb-3">{item.title}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
                 </div>
               ))}
@@ -128,12 +128,12 @@ const ExpertisePlacesDeJeux = () => {
         </section>
 
         {/* Why us */}
-        <section className="section-padding bg-secondary text-secondary-foreground" aria-label="Pourquoi nous choisir">
+        <section className="section-padding bg-foreground text-background" aria-label="Pourquoi nous choisir">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl mb-4">Pourquoi choisir Pittet Aménagements ?</h2>
+              <h2 className="text-3xl md:text-4xl text-background">Pourquoi choisir Pittet Aménagements ?</h2>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 "CFC d'ébéniste et expertise terrain",
                 "Connaissance des normes suisses",
@@ -141,8 +141,8 @@ const ExpertisePlacesDeJeux = () => {
                 "Basé en Suisse romande",
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                  <span className="text-sm text-secondary-foreground/80">{item}</span>
+                  <CheckCircle className="w-4 h-4 text-background/50 mt-0.5 shrink-0" />
+                  <span className="text-sm text-background/70">{item}</span>
                 </div>
               ))}
             </div>

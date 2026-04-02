@@ -59,7 +59,7 @@ const Realisations = () => {
 
         <section className="section-padding" aria-label="Galerie de réalisations">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-8">
+            <div className="text-center mb-12">
               <p className="text-muted-foreground max-w-xl mx-auto">
                 Si l'expertise d'Olivier Pittet vous intéresse, n'hésitez pas à le contacter
                 pour discuter ensemble de vos projets.
@@ -67,17 +67,17 @@ const Realisations = () => {
             </div>
 
             {/* Category Filter */}
-            <div className="flex flex-wrap justify-center gap-2 mb-12" role="tablist" aria-label="Filtrer par catégorie">
+            <div className="flex flex-wrap justify-center gap-3 mb-16" role="tablist" aria-label="Filtrer par catégorie">
               {categories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
                   role="tab"
                   aria-selected={activeCategory === cat}
-                  className={`px-5 py-2 rounded-full text-sm font-medium transition-colors ${
+                  className={`px-5 py-2 text-xs font-semibold tracking-[0.1em] uppercase transition-colors ${
                     activeCategory === cat
-                      ? "bg-primary text-primary-foreground"
-                      : "bg-muted text-muted-foreground hover:bg-accent"
+                      ? "bg-foreground text-background"
+                      : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   {cat}
@@ -86,11 +86,11 @@ const Realisations = () => {
             </div>
 
             {/* Gallery Grid */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filtered.map((item, i) => (
                 <div
                   key={`${item.title}-${i}`}
-                  className="group relative overflow-hidden rounded-lg aspect-[4/3] cursor-pointer"
+                  className="group relative overflow-hidden aspect-[4/3] cursor-pointer"
                 >
                   <img
                     src={item.image}
@@ -98,10 +98,10 @@ const Realisations = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-secondary/0 group-hover:bg-secondary/60 transition-colors duration-300 flex items-end">
-                    <div className="p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                      <span className="text-xs text-primary font-semibold uppercase tracking-wider">{item.category}</span>
-                      <h3 className="text-secondary-foreground text-lg font-serif">{item.title}</h3>
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end">
+                    <div className="p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                      <span className="text-xs text-white/60 font-semibold uppercase tracking-[0.15em]">{item.category}</span>
+                      <h3 className="text-white text-lg">{item.title}</h3>
                     </div>
                   </div>
                 </div>

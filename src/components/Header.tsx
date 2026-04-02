@@ -16,12 +16,12 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="container-narrow mx-auto flex items-center justify-between px-6 py-2">
+      <div className="container-narrow mx-auto flex items-center justify-between px-6 py-3">
         <Link to="/" className="flex items-center gap-3">
           <img
             src={pittetLogo}
-            alt="Pittet Aménagements - Expert en places de jeux et aménagements en Suisse"
-            className="h-20"
+            alt="Pittet Aménagements"
+            className="h-16"
           />
         </Link>
 
@@ -31,8 +31,8 @@ const Header = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`text-sm font-medium tracking-wide transition-colors hover:text-primary ${
-                location.pathname === item.path ? "text-primary" : "text-foreground/70"
+              className={`text-xs font-semibold tracking-[0.15em] uppercase transition-colors hover:text-accent ${
+                location.pathname === item.path ? "text-foreground" : "text-foreground/50"
               }`}
             >
               {item.label}
@@ -40,9 +40,9 @@ const Header = () => {
           ))}
           <a
             href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-red-accent-light transition-colors"
+            className="inline-flex items-center gap-2 bg-foreground text-background px-5 py-2.5 text-xs font-semibold tracking-[0.1em] uppercase hover:bg-foreground/80 transition-colors"
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-3.5 h-3.5" />
             Contact
           </a>
         </nav>
@@ -59,14 +59,14 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <nav className="lg:hidden bg-background border-t border-border px-6 py-4 space-y-3" aria-label="Navigation mobile">
+        <nav className="lg:hidden bg-background border-t border-border px-6 py-6 space-y-4" aria-label="Navigation mobile">
           {navItems.map((item) => (
             <Link
               key={item.path}
               to={item.path}
               onClick={() => setIsOpen(false)}
-              className={`block py-2 text-sm font-medium transition-colors ${
-                location.pathname === item.path ? "text-primary" : "text-foreground/70"
+              className={`block py-1 text-xs font-semibold tracking-[0.15em] uppercase transition-colors ${
+                location.pathname === item.path ? "text-foreground" : "text-foreground/50"
               }`}
             >
               {item.label}
@@ -74,9 +74,9 @@ const Header = () => {
           ))}
           <a
             href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-md text-sm font-semibold mt-2"
+            className="inline-flex items-center gap-2 bg-foreground text-background px-5 py-2.5 text-xs font-semibold tracking-[0.1em] uppercase mt-2"
           >
-            <Phone className="w-4 h-4" />
+            <Phone className="w-3.5 h-3.5" />
             +41 79 339 55 94
           </a>
         </nav>
