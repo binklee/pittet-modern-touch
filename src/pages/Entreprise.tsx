@@ -9,7 +9,7 @@ const avantages = [
   {
     icon: Briefcase,
     title: "Service complet",
-    desc: "Une offre complète allant des aménagements sur mesure au service de maintenance, adaptée à chaque besoin.",
+    desc: "Un interlocuteur polyvant avec son réseau pour votre petit ou grand projet d'aménagement.",
   },
   {
     icon: Heart,
@@ -52,26 +52,22 @@ const Entreprise = () => {
         {/* Histoire */}
         <section className="section-padding" aria-label="Histoire de l'entreprise">
           <div className="container-narrow mx-auto max-w-3xl text-center">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              L'histoire
-            </p>
-            <h2 className="text-3xl md:text-4xl mb-8">
-              Pittet Aménagements
-            </h2>
+            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">L'histoire</p>
+            <h2 className="text-3xl md:text-4xl mb-8">Pittet Aménagements</h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Fondée en 2022 par Olivier Pittet, l'entreprise s'est engagée à fournir des solutions
-              d'aménagements sur mesure pour répondre à vos besoins spécifiques.
+              Fondée en 2022 par Olivier Pittet, l'entreprise s'est engagée à fournir des solutions d'aménagements sur
+              mesure pour répondre à vos besoins spécifiques.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Depuis l'obtention de son CFC d'ébéniste et sa formation de maître socio-professionnel,
-              Monsieur Pittet a développé ses compétences et sa sensibilité à l'environnement et à l'humain,
-              en travaillant au contact de personnes en situation de handicap et en réinsertion.
+              Depuis l'obtention de son CFC d'ébéniste et sa formation de maître socio-professionnel, Monsieur Pittet a
+              développé ses compétences et sa sensibilité à l'environnement et à l'humain, en travaillant au contact de
+              personnes en situation de handicap et en réinsertion.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              C'est pourquoi aujourd'hui, il conçoit et fabrique une multitude d'aménagements pour
-              les communes, les écoles, les institutions et les habitations privées. Tout ce qu'il crée
-              est pensé de manière éco-responsable et surtout accessible. Qu'importe l'aménagement,
-              celui-ci doit permettre à chacun de profiter pleinement de l'espace.
+              C'est pourquoi aujourd'hui, il conçoit et fabrique une multitude d'aménagements pour les communes, les
+              écoles, les institutions et les habitations privées. Tout ce qu'il crée est pensé de manière
+              éco-responsable et surtout accessible. Qu'importe l'aménagement, celui-ci doit permettre à chacun de
+              profiter pleinement de l'espace.
             </p>
           </div>
         </section>
@@ -96,7 +92,6 @@ const Entreprise = () => {
             </div>
           </div>
         </section>
-
 
         <CTASection />
       </main>
