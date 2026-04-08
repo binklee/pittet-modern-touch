@@ -9,6 +9,9 @@ import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import heroPrestations from "@/assets/hero-prestations.jpg";
 import expertiseControle from "@/assets/expertise-controle.jpg";
 import piezometre from "@/assets/piezometre.jpg";
+import autresOlivier from "@/assets/real-autres-olivier.jpg";
+import autresMachine from "@/assets/real-autres-machine.jpg";
+import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
 
 const categories = [
   "Toutes",
@@ -39,6 +42,9 @@ const realisations: Realisation[] = [
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
+  { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
+  { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
+  { image: autresBienvenue, title: "Panneau de bienvenue", category: "Autres" },
 ];
 
 const Realisations = () => {
