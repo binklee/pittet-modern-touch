@@ -1,5 +1,3 @@
-import { Phone, Mail } from "lucide-react";
-
 const CTASection = () => {
   return (
     <section className="bg-foreground section-padding text-center">
@@ -11,20 +9,19 @@ const CTASection = () => {
           N'hésitez pas à contacter Olivier Pittet pour discuter de vos besoins.
           Il vous recontactera dans les plus brefs délais.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
           <a
             href="tel:+41793395594"
-            className="inline-flex items-center justify-center gap-2 border border-background/30 text-background hover:bg-background/10 text-xs font-semibold tracking-[0.1em] uppercase px-8 py-4 transition-colors"
+            className="text-background/80 hover:text-background transition-colors text-lg tracking-wide"
           >
-            <Phone className="w-4 h-4" />
             +41 79 339 55 94
           </a>
+          <span className="hidden sm:block w-px h-6 bg-background/20" />
           <a
             href="mailto:pittet.amenagements@gmail.com"
-            className="inline-flex items-center justify-center gap-2 bg-background text-foreground hover:bg-background/90 text-xs font-semibold tracking-[0.1em] uppercase px-8 py-4 transition-colors"
+            className="text-background/80 hover:text-background transition-colors text-lg tracking-wide"
           >
-            <Mail className="w-4 h-4" />
-            Envoyer un email
+            pittet.amenagements@gmail.com
           </a>
         </div>
       </div>
