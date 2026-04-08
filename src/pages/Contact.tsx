@@ -10,16 +10,9 @@ const Contact = () => {
         {/* Intro */}
         <section className="section-padding" aria-label="Introduction contact">
           <div className="container-narrow mx-auto max-w-3xl text-center">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              Contact
-            </p>
-            <h1 className="text-3xl md:text-4xl mb-6">
-              Vous souhaitez faire appel à Pittet Aménagements ?
-            </h1>
-            <p className="text-muted-foreground leading-relaxed">
-              N'hésitez pas à appeler Olivier Pittet, à lui envoyer un mail ou à lui écrire.
-              Il vous recontactera dans les plus brefs délais.
-            </p>
+            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Contact</p>
+            <h1 className="text-3xl md:text-4xl mb-6">Vous souhaitez faire appel à Pittet Aménagements ?</h1>
+            <p className="text-muted-foreground leading-relaxed">N'hésitez pas à me contacter.</p>
           </div>
         </section>
 
@@ -36,7 +29,8 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors leading-relaxed"
                 >
-                  Chemin de la Corba 30<br />
+                  Chemin de la Corba 30
+                  <br />
                   1673 Gillarens
                 </a>
               </div>
