@@ -87,35 +87,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* About */}
-        <section className="section-padding bg-secondary" aria-label="À propos">
-          <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-16 items-center">
-            <div className="order-2 lg:order-1">
-              <img
-                src={heroAmenagement}
-                alt="Olivier Pittet, ébéniste et expert en aménagements"
-                className="w-full object-cover aspect-[4/3]"
-                loading="lazy"
-                width={1920}
-                height={1080}
-              />
-            </div>
-            <div className="order-1 lg:order-2">
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">L'entreprise</p>
-              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">Conçus pour l'humain</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Installé à Gillarens, à la frontière des cantons de Fribourg et Vaud, Pittet Aménagements a été fondé en
-                2022 par Olivier Pittet. Titulaire d'un CFC d'ébéniste et riche de plusieurs années d'expérience dans le
-                milieu social et la construction, il fabrique et installe des aménagements adaptés à toutes les
-                catégories de la population.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Il a développé ses compétences en serrurerie, paysagisme et finitions pour proposer des installations
-                durables, ergonomiques et esthétiques qui améliorent la qualité de vie.
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Services */}
         <section className="section-padding" aria-label="Services">
