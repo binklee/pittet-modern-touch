@@ -40,13 +40,6 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <a
-            href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-foreground text-background px-5 py-2.5 text-xs font-semibold tracking-[0.1em] uppercase hover:bg-foreground/80 transition-colors"
-          >
-            <Phone className="w-3.5 h-3.5" />
-            Contact
-          </a>
         </nav>
 
         {/* Mobile toggle */}
