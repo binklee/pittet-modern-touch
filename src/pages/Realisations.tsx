@@ -53,12 +53,6 @@ const Realisations = () => {
 
         <section className="section-padding" aria-label="Galerie de réalisations">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <p className="text-muted-foreground max-w-xl mx-auto">
-                Si l'expertise d'Olivier Pittet vous intéresse, n'hésitez pas à le contacter pour discuter ensemble de
-                vos projets.
-              </p>
-            </div>
 
             {/* Category Filter */}
             <div
