@@ -16,6 +16,8 @@ import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
+import intCuisine from "@/assets/real-int-cuisine.jpg";
+import intSol from "@/assets/real-int-sol.jpg";
 
 const categories = [
   "Toutes",
