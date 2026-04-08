@@ -16,6 +16,8 @@ import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
+import intCuisine from "@/assets/real-int-cuisine.jpg";
+import intSol from "@/assets/real-int-sol.jpg";
 
 const categories = [
   "Toutes",
@@ -46,6 +48,8 @@ const realisations: Realisation[] = [
     category: "Extérieur",
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
+  { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
+  { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
   { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
   { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
