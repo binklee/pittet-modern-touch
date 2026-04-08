@@ -12,7 +12,7 @@ const AutresPrestations = () => {
       <main className="pt-[73px]">
         <PageHero
           title="Aménagements"
-          subtitle="Des solutions intérieures et extérieures pour faciliter votre quotidien"
+          subtitle="Solutions intérieures et extérieures"
           image={heroPrestations}
         />
 
