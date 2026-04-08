@@ -12,8 +12,8 @@ const ExpertisePlacesDeJeux = () => {
       <Header />
       <main className="pt-[73px]">
         <PageHero
-          title="Expertise Places de Jeux"
-          subtitle="Contrôle, sécurité et aménagement de places de jeux en Suisse"
+          title="Expertise Places de Jeux, Fitness Extérieur & Parcours Vita"
+          subtitle="Contrôle, sécurité et aménagement d'espaces récréatifs et sportifs en Suisse"
           image={heroPlayground}
         />
 
