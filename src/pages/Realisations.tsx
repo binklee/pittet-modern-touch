@@ -28,16 +28,11 @@ interface Realisation {
 }
 
 const realisations: Realisation[] = [
-  { image: heroPlayground, title: "Place de jeux communale", category: "Places de jeux" },
-  { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/03/20220920_175533.jpg", title: "Aménagement scolaire", category: "Institutions & Scolaire" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagementen-institutions-2.jpg", title: "Installation institutionnelle", category: "Institutions & Scolaire" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagement-scolaire-escalier.jpg", title: "Escalier adapté", category: "Institutions & Scolaire" },
+  { image: heroPlayground, title: "Place de jeux communale", category: "Places de jeux, fitness et parcours Vita" },
+  { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
   { image: heroPrestations, title: "Mobilier extérieur sur mesure", category: "Extérieur" },
-  { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/20230201_154547-scaled.jpg", title: "Serrurerie et métal", category: "Réparations" },
   { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagements-Accueil-Header-2.jpg", title: "Aménagement extérieur", category: "Extérieur" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/20230323_112613-scaled.jpg", title: "Entretien et réparations", category: "Réparations" },
+  { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
 ];
 
 const Realisations = () => {
