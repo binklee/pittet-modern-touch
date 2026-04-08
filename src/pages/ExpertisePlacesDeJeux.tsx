@@ -60,7 +60,7 @@ const ExpertisePlacesDeJeux = () => {
                 {
                   icon: ClipboardCheck,
                   title: "Contrôle de sécurité",
-                  desc: "Inspection complète de places de jeux, fitness extérieur et parcours Vita selon les normes SN EN 1176/1177. Vérification de l'état des équipements, des sols amortissants et des points de coincement.",
+                  desc: "Inspection complète de places de jeux, fitness extérieur et parcours Vita selon les normes SN EN 1176/16630. Vérification de l'état des équipements, des sols amortissants et des points de coincement.",
                 },
                 {
                   icon: Shield,
