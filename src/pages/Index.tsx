@@ -27,7 +27,7 @@ const Index = () => {
           <div className="relative z-10 px-6 md:px-12 lg:px-20 max-w-3xl mt-20 animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">Pittet Aménagements</h1>
             <p className="text-lg md:text-xl text-white/70 font-light mb-10 max-w-xl">
-              Pittet Aménagements propose des services d'aménagements intérieurs et extérieurs.
+              Mon entreprise propose des services de menuiserie, maçonnerie-paysagisme et serrurerie.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
