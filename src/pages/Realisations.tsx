@@ -35,7 +35,8 @@ interface Realisation {
 const realisations: Realisation[] = [
   { image: heroPlayground, title: "Place de jeux communale", category: "Places de jeux, fitness et parcours Vita" },
   { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
-  { image: heroPrestations, title: "Mobilier extérieur sur mesure", category: "Extérieur" },
+  { image: extBanc, title: "Banc extérieur sur mesure", category: "Extérieur" },
+  { image: extTerrasse, title: "Terrasse et escalier", category: "Extérieur" },
   {
     image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagements-Accueil-Header-2.jpg",
     title: "Aménagement extérieur",
