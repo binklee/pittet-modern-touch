@@ -12,36 +12,21 @@ const AutresPrestations = () => {
       <main className="pt-[73px]">
         <PageHero
           title="Aménagements"
-          subtitle="Des solutions intérieures et extérieures pour faciliter votre quotidien"
+          subtitle="Solutions intérieures et extérieures"
           image={heroPrestations}
         />
 
-        {/* Intro */}
-        <section className="section-padding" aria-label="Présentation des prestations">
-          <div className="container-narrow mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl md:text-4xl mb-8">
-              Entretien et réparations
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              En plus de l'expertise en places de jeux, Olivier Pittet vous accompagne toute l'année
-              dans la réparation, la maintenance et l'entretien de vos installations. Son offre
-              multiservice a pour but de répondre à tous vos besoins au quotidien.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Menuiserie, construction, nettoyage, peinture — Pittet Aménagements est là pour
-              vous faire profiter de sa polyvalence et de son savoir-faire.
-            </p>
-          </div>
-        </section>
+
+
 
         {/* Services Grid */}
         <section className="section-padding bg-secondary" aria-label="Liste des prestations">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
               <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Nos prestations
+                Prestations
               </p>
-              <h2 className="text-3xl md:text-4xl">Ce que nous proposons</h2>
+              <h2 className="text-3xl md:text-4xl">Compétences</h2>
             </div>
             <div className="grid md:grid-cols-3 gap-10">
               {[
