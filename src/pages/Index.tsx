@@ -5,8 +5,9 @@ import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import heroPlayground from "@/assets/hero-playground.jpg";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
-import expertiseControle from "@/assets/expertise-controle.jpg";
-import heroPrestations from "@/assets/hero-prestations.jpg";
+import expertiseControle from "@/assets/exterieur-projet.jpg";
+import heroPrestations from "@/assets/institutions-projet.jpg";
+import equipementProjet from "@/assets/equipement-projet.jpg";
 
 const Index = () => {
   return (
