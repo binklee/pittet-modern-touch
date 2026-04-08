@@ -50,6 +50,9 @@ const realisations: Realisation[] = [
   { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
   { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
   { image: autresBienvenue, title: "Panneau de bienvenue", category: "Autres" },
+  { image: art1, title: "Fresque d'église", category: "Artistique" },
+  { image: art2, title: "Tableau extérieur", category: "Artistique" },
+  { image: art3, title: "Sculpture arbre coloré", category: "Artistique" },
 ];
 
 const Realisations = () => {
