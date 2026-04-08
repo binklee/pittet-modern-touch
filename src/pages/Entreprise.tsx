@@ -9,32 +9,32 @@ const avantages = [
   {
     icon: Briefcase,
     title: "Service complet",
-    desc: "Olivier Pittet vous propose une offre complète. Selon vos besoins, il réalise une multitude de services et s'adapte à votre demande. De cette manière, vous pouvez autant bénéficier de travaux d'aménagements spécialisés que d'un service de maintenance.",
+    desc: "Une offre complète allant des aménagements sur mesure au service de maintenance, adaptée à chaque besoin.",
   },
   {
     icon: Heart,
     title: "Expertise",
-    desc: "Grâce à l'expérience accumulée par Olivier Pittet autant dans le social que la construction d'aménagements, il peut offrir des prestations adaptées de qualité. Sa double casquette fait de lui un professionnel spécialisé dans la conception d'aménagements spécialisés.",
+    desc: "Une double compétence en ébénisterie et en accompagnement social pour des aménagements pensés pour tous.",
   },
   {
     icon: Leaf,
     title: "Installations durables",
-    desc: "Sensible à la cause environnementale, Olivier Pittet s'efforce de réduire son impact environnemental à chaque étape du processus de production. Pour cela il limite les déplacements et choisit ses matériaux avec attention.",
+    desc: "Des matériaux choisis avec soin et un impact environnemental réduit à chaque étape.",
   },
   {
     icon: Wrench,
     title: "Service d'entretien",
-    desc: "Travailler avec Olivier Pittet, c'est aussi bénéficier d'un service d'entretien permanent pour vos différentes installations, qu'elles soient intérieures comme extérieures.",
+    desc: "Un suivi et un entretien permanent pour toutes vos installations, intérieures comme extérieures.",
   },
   {
     icon: Accessibility,
     title: "Handicap et accessibilité",
-    desc: "L'entreprise est spécialisée dans la création d'espaces adaptés aux personnes à mobilité réduite. Olivier Pittet conçoit des aménagements qui intègrent vos contraintes de mobilité : rampes, plateformes, accroches murales...",
+    desc: "Des espaces adaptés aux personnes à mobilité réduite : rampes, plateformes, accroches murales.",
   },
   {
     icon: Users,
-    title: "Des réalisations tournées vers la communauté",
-    desc: "Pittet Aménagements pense toutes ses installations comme des créations utiles à tout un chacun. Olivier Pittet prend en considération les usages collectifs et les besoins inhérents à l'espace public.",
+    title: "Réalisations pour la communauté",
+    desc: "Des installations pensées pour l'usage collectif et les besoins de l'espace public.",
   },
 ];
 
@@ -81,7 +81,7 @@ const Entreprise = () => {
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
               <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Pourquoi nous choisir
+                Pourquoi Olivier Pittet
               </p>
               <h2 className="text-3xl md:text-4xl">Les avantages</h2>
             </div>
@@ -97,40 +97,6 @@ const Entreprise = () => {
           </div>
         </section>
 
-        {/* Démarche */}
-        <section className="section-padding" aria-label="Démarche projet">
-          <div className="container-narrow mx-auto max-w-3xl text-center">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              La démarche
-            </p>
-            <h2 className="text-3xl md:text-4xl mb-8">
-              Comment se déroule un projet ?
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              La démarche de Pittet Aménagements est simple : s'appuyer sur vos usages et contraintes
-              d'accessibilité pour proposer des installations pérennes qui offrent mobilité et confort.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Suite à un entretien, plusieurs approches sont possibles :
-            </p>
-            <div className="text-left max-w-xl mx-auto space-y-4">
-              <div className="flex items-start gap-3">
-                <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2.5 shrink-0" />
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Pour des interventions de dépannages, une facturation à l'heure est proposée.
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2.5 shrink-0" />
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Pour la conception de projets, Olivier Pittet réalise une offre sur mesure selon son envergure.
-                  Rénovation, création de structure neuve ou entretien, l'objectif est de cerner au mieux vos attentes.
-                  Si besoin, une visualisation 2D pourra être transmise avant la fabrication ou la planification de l'intervention.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <CTASection />
       </main>
