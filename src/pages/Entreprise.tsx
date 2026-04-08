@@ -9,32 +9,32 @@ const avantages = [
   {
     icon: Briefcase,
     title: "Service complet",
-    desc: "Olivier Pittet vous propose une offre complète. Selon vos besoins, il réalise une multitude de services et s'adapte à votre demande. De cette manière, vous pouvez autant bénéficier de travaux d'aménagements spécialisés que d'un service de maintenance.",
+    desc: "Une offre complète allant des aménagements sur mesure au service de maintenance, adaptée à chaque besoin.",
   },
   {
     icon: Heart,
     title: "Expertise",
-    desc: "Grâce à l'expérience accumulée par Olivier Pittet autant dans le social que la construction d'aménagements, il peut offrir des prestations adaptées de qualité. Sa double casquette fait de lui un professionnel spécialisé dans la conception d'aménagements spécialisés.",
+    desc: "Une double compétence en ébénisterie et en accompagnement social pour des aménagements pensés pour tous.",
   },
   {
     icon: Leaf,
     title: "Installations durables",
-    desc: "Sensible à la cause environnementale, Olivier Pittet s'efforce de réduire son impact environnemental à chaque étape du processus de production. Pour cela il limite les déplacements et choisit ses matériaux avec attention.",
+    desc: "Des matériaux choisis avec soin et un impact environnemental réduit à chaque étape.",
   },
   {
     icon: Wrench,
     title: "Service d'entretien",
-    desc: "Travailler avec Olivier Pittet, c'est aussi bénéficier d'un service d'entretien permanent pour vos différentes installations, qu'elles soient intérieures comme extérieures.",
+    desc: "Un suivi et un entretien permanent pour toutes vos installations, intérieures comme extérieures.",
   },
   {
     icon: Accessibility,
     title: "Handicap et accessibilité",
-    desc: "L'entreprise est spécialisée dans la création d'espaces adaptés aux personnes à mobilité réduite. Olivier Pittet conçoit des aménagements qui intègrent vos contraintes de mobilité : rampes, plateformes, accroches murales...",
+    desc: "Des espaces adaptés aux personnes à mobilité réduite : rampes, plateformes, accroches murales.",
   },
   {
     icon: Users,
-    title: "Des réalisations tournées vers la communauté",
-    desc: "Pittet Aménagements pense toutes ses installations comme des créations utiles à tout un chacun. Olivier Pittet prend en considération les usages collectifs et les besoins inhérents à l'espace public.",
+    title: "Réalisations pour la communauté",
+    desc: "Des installations pensées pour l'usage collectif et les besoins de l'espace public.",
   },
 ];
 
