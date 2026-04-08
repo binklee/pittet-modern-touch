@@ -25,6 +25,7 @@ const Footer = () => {
             <h4 className="text-sm tracking-[0.15em] mb-6">Navigation</h4>
             <nav className="space-y-3" aria-label="Navigation pied de page">
               <Link to="/" className="block text-sm text-background/50 hover:text-background transition-colors">Accueil</Link>
+              <Link to="/lentreprise" className="block text-sm text-background/50 hover:text-background transition-colors">L'entreprise</Link>
               <Link to="/expertise-places-de-jeux" className="block text-sm text-background/50 hover:text-background transition-colors">Expertise Places de Jeux</Link>
               <Link to="/autres-prestations" className="block text-sm text-background/50 hover:text-background transition-colors">Autres Aménagements</Link>
               <Link to="/realisations" className="block text-sm text-background/50 hover:text-background transition-colors">Réalisations</Link>
