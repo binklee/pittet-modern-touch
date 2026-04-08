@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
+import entrepriseOlivier from "@/assets/entreprise-olivier.jpg";
 
 const avantages = [
   {
@@ -51,24 +52,34 @@ const Entreprise = () => {
 
         {/* Histoire */}
         <section className="section-padding" aria-label="Histoire de l'entreprise">
-          <div className="container-narrow mx-auto max-w-3xl text-center">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">L'histoire</p>
-            <h2 className="text-3xl md:text-4xl mb-8">Pittet Aménagements</h2>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              Fondée en 2022 par Olivier Pittet, l'entreprise s'est engagée à fournir des solutions d'aménagements sur
-              mesure pour répondre à vos besoins spécifiques.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              Depuis l'obtention de son CFC d'ébéniste et sa formation de maître socio-professionnel, Monsieur Pittet a
-              développé ses compétences et sa sensibilité à l'environnement et à l'humain, en travaillant au contact de
-              personnes en situation de handicap et en réinsertion.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              C'est pourquoi aujourd'hui, il conçoit et fabrique une multitude d'aménagements pour les communes, les
-              écoles, les institutions et les habitations privées. Tout ce qu'il crée est pensé de manière
-              éco-responsable et surtout accessible. Qu'importe l'aménagement, celui-ci doit permettre à chacun de
-              profiter pleinement de l'espace.
-            </p>
+          <div className="container-narrow mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">L'histoire</p>
+                <h2 className="text-3xl md:text-4xl mb-8">Pittet Aménagements</h2>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  Fondée en 2022 par Olivier Pittet, l'entreprise s'est engagée à fournir des solutions d'aménagements sur
+                  mesure pour répondre à vos besoins spécifiques.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                  Depuis l'obtention de son CFC d'ébéniste et sa formation de maître socio-professionnel, Monsieur Pittet a
+                  développé ses compétences et sa sensibilité à l'environnement et à l'humain, en travaillant au contact de
+                  personnes en situation de handicap et en réinsertion.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  C'est pourquoi aujourd'hui, il conçoit et fabrique une multitude d'aménagements pour les communes, les
+                  écoles, les institutions et les habitations privées. Tout ce qu'il crée est pensé de manière
+                  éco-responsable et surtout accessible.
+                </p>
+              </div>
+              <div className="aspect-[4/5] overflow-hidden">
+                <img
+                  src={entrepriseOlivier}
+                  alt="Olivier Pittet devant son véhicule"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
