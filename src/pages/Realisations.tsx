@@ -42,6 +42,9 @@ const realisations: Realisation[] = [
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
+  { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
+  { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
+  { image: autresBienvenue, title: "Panneau de bienvenue", category: "Autres" },
 ];
 
 const Realisations = () => {
