@@ -13,6 +13,9 @@ import piezometre from "@/assets/piezometre.jpg";
 import autresOlivier from "@/assets/real-autres-olivier.jpg";
 import autresMachine from "@/assets/real-autres-machine.jpg";
 import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
+import art1 from "@/assets/real-art-1.jpg";
+import art2 from "@/assets/real-art-2.jpg";
+import art3 from "@/assets/real-art-3.jpg";
 
 const categories = [
   "Toutes",
