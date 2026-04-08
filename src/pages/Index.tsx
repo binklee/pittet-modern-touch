@@ -112,7 +112,7 @@ const Index = () => {
               },
               {
                 icon: TreePine,
-                title: "Équipement, machines et outillage complets",
+                title: "Équipement, machines et outillage",
                 desc: "Machine de terrassement, forage, maçonnerie, construction métallique et menuiserie.",
                 image: equipementProjet,
               },
