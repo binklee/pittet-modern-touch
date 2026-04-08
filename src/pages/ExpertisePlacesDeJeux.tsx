@@ -67,22 +67,22 @@ const ExpertisePlacesDeJeux = () => {
                 {
                   icon: ClipboardCheck,
                   title: "Contrôle de sécurité",
-                  desc: "Inspection complète selon les normes SN EN 1176/1177. Vérification de l'état des équipements, des sols amortissants, des espacements et des points de coincement.",
+                  desc: "Inspection complète de places de jeux, fitness extérieur et parcours Vita selon les normes SN EN 1176/1177. Vérification de l'état des équipements, des sols amortissants et des points de coincement.",
                 },
                 {
                   icon: Shield,
                   title: "Expertise et rapports",
-                  desc: "Rédaction de rapports d'expertise détaillés avec recommandations de mise en conformité. Suivi périodique de la sécurité de vos installations.",
+                  desc: "Rédaction de rapports d'expertise détaillés avec recommandations de mise en conformité pour vos places de jeux, installations de fitness et parcours Vita.",
                 },
                 {
                   icon: Wrench,
                   title: "Conception et installation",
-                  desc: "Conception sur mesure de places de jeux adaptées à votre espace. Installation d'équipements en bois, métal et matériaux composites.",
+                  desc: "Conception sur mesure de places de jeux, espaces de fitness extérieur et parcours Vita adaptés à votre environnement.",
                 },
                 {
                   icon: Eye,
                   title: "Maintenance préventive",
-                  desc: "Entretien régulier de vos installations de jeux. Réparations, remplacement de pièces usées et mise à jour des équipements.",
+                  desc: "Entretien régulier de vos installations récréatives et sportives. Réparations, remplacement de pièces usées et mise à jour des équipements.",
                 },
               ].map((service) => (
                 <div
