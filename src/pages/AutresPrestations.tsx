@@ -24,9 +24,9 @@ const AutresPrestations = () => {
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
               <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Nos prestations
+                Prestations
               </p>
-              <h2 className="text-3xl md:text-4xl">Ce que nous proposons</h2>
+              <h2 className="text-3xl md:text-4xl">Compétences</h2>
             </div>
             <div className="grid md:grid-cols-3 gap-10">
               {[
