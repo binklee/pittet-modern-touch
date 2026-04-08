@@ -6,7 +6,7 @@ import pittetLogo from "@/assets/pittet-logo.png";
 const navItems = [
   { label: "Accueil", path: "/" },
   { label: "Expertise Places de Jeux", path: "/expertise-places-de-jeux" },
-  { label: "Autres Prestations", path: "/autres-prestations" },
+  { label: "Autres Aménagements", path: "/autres-prestations" },
   { label: "Réalisations", path: "/realisations" },
 ];
 
