@@ -11,11 +11,12 @@ import expertiseControle from "@/assets/expertise-controle.jpg";
 
 const categories = [
   "Toutes",
-  "Places de jeux",
-  "Institutions & Scolaire",
-  "Extérieur",
+  "Places de jeux, fitness et parcours Vita",
+  "Piézomètre",
   "Intérieur",
-  "Réparations",
+  "Extérieur",
+  "Artistique",
+  "Autres",
 ] as const;
 
 type Category = (typeof categories)[number];
