@@ -42,6 +42,8 @@ interface Realisation {
 const realisations: Realisation[] = [
   { image: heroPlayground, title: "Place de jeux communale", category: "Places de jeux, fitness et parcours Vita" },
   { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjVita, title: "Installation parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjPanneau, title: "Panneau parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
   { image: extBanc, title: "Banc extérieur sur mesure", category: "Extérieur" },
   { image: extTerrasse, title: "Terrasse et escalier", category: "Extérieur" },
   {
@@ -49,7 +51,7 @@ const realisations: Realisation[] = [
     title: "Aménagement extérieur",
     category: "Extérieur",
   },
-  { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
+  { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
