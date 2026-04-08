@@ -1,4 +1,4 @@
-import { Hammer, TreePine, Brick, KeyRound } from "lucide-react";
+import { Hammer, TreePine, Wrench, Lock } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
