@@ -128,27 +128,6 @@ const ExpertisePlacesDeJeux = () => {
           </div>
         </section>
 
-        {/* Why us */}
-        <section className="section-padding bg-foreground text-background" aria-label="Pourquoi nous choisir">
-          <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl text-background">Pourquoi choisir Pittet Aménagements ?</h2>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                "CFC d'ébéniste et expertise terrain",
-                "Connaissance des normes suisses",
-                "Interlocuteur unique pour votre projet",
-                "Basé en Suisse romande",
-              ].map((item) => (
-                <div key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-background/50 mt-0.5 shrink-0" />
-                  <span className="text-sm text-background/70">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <CTASection />
       </main>
