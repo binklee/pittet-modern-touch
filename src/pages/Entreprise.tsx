@@ -72,7 +72,7 @@ const Entreprise = () => {
                   éco-responsable et surtout accessible.
                 </p>
               </div>
-              <div className="aspect-[4/5] overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={entrepriseOlivier}
                   alt="Olivier Pittet devant son véhicule"
