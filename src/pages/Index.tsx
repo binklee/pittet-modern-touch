@@ -34,7 +34,7 @@ const Index = () => {
                 to="/realisations"
                 className="inline-flex items-center justify-center gap-2 bg-white text-foreground hover:bg-white/90 text-xs font-semibold tracking-[0.1em] uppercase px-8 py-4 transition-colors"
               >
-                Nos réalisations
+                Voir réalisations
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -45,12 +45,14 @@ const Index = () => {
         <section className="section-padding" aria-label="Expertise places de jeux">
           <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Notre spécialité</p>
-              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">Expert et contrôleur de places de jeux</h2>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Spécialité</p>
+              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
+                Expert et contrôleur de places de jeux, fitness extérieurs et parcours Vita
+              </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Pittet Aménagements est spécialisé dans le contrôle, l'expertise et l'aménagement de places de jeux
-                conformes aux normes de sécurité suisses. J'accompagne les communes, les écoles et les institutions dans
-                la création d'espaces de jeux sûrs et adaptés.
+                Pittet Aménagements est spécialisé dans le contrôle, l'expertise et l'aménagement de places de jeux et
+                installations sportives extérieures conformes aux normes de sécurité suisses. J'accompagne les communes,
+                les écoles et les institutions dans la création d'espaces de jeux sûrs et adaptés.
               </p>
               <div className="space-y-4 mb-10">
                 {[
