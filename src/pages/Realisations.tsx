@@ -49,13 +49,13 @@ const Realisations = () => {
     <>
       <Header />
       <main className="pt-[73px]">
-        <section className="section-padding">
+        <section className="pt-16 pb-8">
           <div className="container-narrow mx-auto text-center">
             <h1 className="text-4xl md:text-5xl">Réalisations</h1>
           </div>
         </section>
 
-        <section className="section-padding" aria-label="Galerie de réalisations">
+        <section className="px-6 md:px-12 lg:px-24 pb-20" aria-label="Galerie de réalisations">
           <div className="container-narrow mx-auto">
 
             {/* Category Filter */}
