@@ -49,7 +49,11 @@ const Realisations = () => {
     <>
       <Header />
       <main className="pt-[73px]">
-        <PageHero title="Réalisations" image={heroRealisations} compact />
+        <section className="section-padding">
+          <div className="container-narrow mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl">Réalisations</h1>
+          </div>
+        </section>
 
         <section className="section-padding" aria-label="Galerie de réalisations">
           <div className="container-narrow mx-auto">
