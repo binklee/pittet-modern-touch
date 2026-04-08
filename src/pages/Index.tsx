@@ -3,7 +3,7 @@ import { ArrowRight, Shield, Wrench, TreePine, CheckCircle } from "lucide-react"
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
-import heroPlayground from "@/assets/hero-playground.jpg";
+import heroAccueil from "@/assets/hero-accueil.jpg";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import expertiseControle from "@/assets/parcoursvita.jpg";
 import heroPrestations from "@/assets/institutions-projet.jpg";
