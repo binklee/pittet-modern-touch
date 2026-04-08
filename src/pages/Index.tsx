@@ -131,11 +131,14 @@ const Index = () => {
         <section className="section-padding" aria-label="Services">
           <div className="container-narrow mx-auto text-center mb-16">
             <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              Nos services
+              Les services
             </p>
-            <h2 className="text-3xl md:text-4xl">
+            <h2 className="text-3xl md:text-4xl mb-6">
               Un savoir-faire polyvalent
             </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              Ayant un énorme plaisir à collaborer avec vous, Olivier Pittet vous écoute, trouve avec vous la meilleure solution et réalise avec vous votre projet.
+            </p>
           </div>
           <div className="container-narrow mx-auto grid md:grid-cols-3 gap-10">
             {[
@@ -175,10 +178,7 @@ const Index = () => {
                   />
                 </div>
                 <h3 className="text-lg mb-3">{service.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{service.desc}</p>
-                <span className="inline-flex items-center gap-2 text-foreground text-xs font-semibold tracking-[0.1em] uppercase group-hover:gap-3 transition-all">
-                  Découvrir <ArrowRight className="w-3.5 h-3.5" />
-                </span>
+                <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
               </Link>
             ))}
           </div>
