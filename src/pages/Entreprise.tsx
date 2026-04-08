@@ -97,40 +97,6 @@ const Entreprise = () => {
           </div>
         </section>
 
-        {/* Démarche */}
-        <section className="section-padding" aria-label="Démarche projet">
-          <div className="container-narrow mx-auto max-w-3xl text-center">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              La démarche
-            </p>
-            <h2 className="text-3xl md:text-4xl mb-8">
-              Comment se déroule un projet ?
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              La démarche de Pittet Aménagements est simple : s'appuyer sur vos usages et contraintes
-              d'accessibilité pour proposer des installations pérennes qui offrent mobilité et confort.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Suite à un entretien, plusieurs approches sont possibles :
-            </p>
-            <div className="text-left max-w-xl mx-auto space-y-4">
-              <div className="flex items-start gap-3">
-                <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2.5 shrink-0" />
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Pour des interventions de dépannages, une facturation à l'heure est proposée.
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="w-1 h-1 rounded-full bg-foreground/30 mt-2.5 shrink-0" />
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Pour la conception de projets, Olivier Pittet réalise une offre sur mesure selon son envergure.
-                  Rénovation, création de structure neuve ou entretien, l'objectif est de cerner au mieux vos attentes.
-                  Si besoin, une visualisation 2D pourra être transmise avant la fabrication ou la planification de l'intervention.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <CTASection />
       </main>
