@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import heroAccueil from "@/assets/hero-accueil.jpg";
-import heroAmenagement from "@/assets/hero-amenagement.jpg";
+
 import expertiseControle from "@/assets/parcoursvita.jpg";
 import heroPrestations from "@/assets/institutions-projet.jpg";
 import equipementProjet from "@/assets/equipement-projet.jpg";
