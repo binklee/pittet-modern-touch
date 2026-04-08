@@ -92,54 +92,6 @@ const AutresPrestations = () => {
           </div>
         </section>
 
-        {/* Institutions */}
-        <section className="section-padding" aria-label="Aménagements pour institutions">
-          <div className="container-narrow mx-auto">
-            <div className="text-center mb-16">
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Aménagements spécialisés
-              </p>
-              <h2 className="text-3xl md:text-4xl mb-4">Institutions & Écoles</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Olivier Pittet propose aux écoles et collectivités son savoir-faire pour améliorer
-                le bien-être grâce à l'aménagement de l'environnement.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[
-                {
-                  title: "Aménagement extérieur institutions",
-                  desc: "Espaces de convivialité, tables de ping-pong, palissades, brises-vues, bacs végétalisés.",
-                },
-                {
-                  title: "Aménagement intérieur institutions",
-                  desc: "Postes de travail adaptés, cloisons modulables, espaces de travail respectueux, sas de décompression.",
-                },
-                {
-                  title: "Accessibilité",
-                  desc: "Rampes d'accès, escaliers, passerelles, sécurisation de voies, signalisation, plafonds antibruit.",
-                },
-                {
-                  title: "Extérieur scolaire",
-                  desc: "Adaptation de cours de récréation, mobiliers extérieurs, dispositifs pour personnes à mobilité réduite.",
-                },
-                {
-                  title: "Intérieur scolaire",
-                  desc: "Cloisons, adaptation du mobilier, espaces modulables, zones de détente pour l'enseignement spécialisé.",
-                },
-                {
-                  title: "Services",
-                  desc: "Maintenance, suivi sécurité, fabrication de meubles sur mesure, entretien du matériel d'enseignement.",
-                },
-              ].map((item) => (
-                <div key={item.title} className="border border-border p-8">
-                  <h3 className="text-base mb-2">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <CTASection />
       </main>
