@@ -8,6 +8,7 @@ import ExpertisePlacesDeJeux from "./pages/ExpertisePlacesDeJeux.tsx";
 import AutresPrestations from "./pages/AutresPrestations.tsx";
 import Realisations from "./pages/Realisations.tsx";
 import Entreprise from "./pages/Entreprise.tsx";
+import Contact from "./pages/Contact.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
