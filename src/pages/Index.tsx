@@ -25,11 +25,9 @@ const Index = () => {
           />
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 px-6 md:px-12 lg:px-20 max-w-3xl mt-20 animate-fade-in-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
-              Aménagements sur mesure
-            </h1>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">Pittet Aménagements</h1>
             <p className="text-lg md:text-xl text-white/70 font-light mb-10 max-w-xl">
-              Pittet Aménagements propose des services d'aménagements intérieurs et extérieurs aux institutions comme aux particuliers.
+              Pittet Aménagements propose des services d'aménagements intérieurs et extérieurs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -47,16 +45,12 @@ const Index = () => {
         <section className="section-padding" aria-label="Expertise places de jeux">
           <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Notre spécialité
-              </p>
-              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
-                Expert et contrôleur de places de jeux
-              </h2>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Notre spécialité</p>
+              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">Expert et contrôleur de places de jeux</h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Pittet Aménagements est spécialisé dans le contrôle, l'expertise et l'aménagement
-                de places de jeux conformes aux normes de sécurité suisses. J'accompagne les communes,
-                les écoles et les institutions dans la création d'espaces de jeux sûrs et adaptés.
+                Pittet Aménagements est spécialisé dans le contrôle, l'expertise et l'aménagement de places de jeux
+                conformes aux normes de sécurité suisses. J'accompagne les communes, les écoles et les institutions dans
+                la création d'espaces de jeux sûrs et adaptés.
               </p>
               <div className="space-y-4 mb-10">
                 {[
@@ -105,21 +99,17 @@ const Index = () => {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                L'entreprise
-              </p>
-              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
-                Conçus pour l'humain
-              </h2>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">L'entreprise</p>
+              <h2 className="text-3xl md:text-4xl mb-8 leading-snug">Conçus pour l'humain</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Installé à Gillarens, à la frontière des cantons de Fribourg et Vaud, Pittet Aménagements
-                a été fondé en 2022 par Olivier Pittet. Titulaire d'un CFC d'ébéniste et riche de plusieurs
-                années d'expérience dans le milieu social et la construction, il fabrique et installe des
-                aménagements adaptés à toutes les catégories de la population.
+                Installé à Gillarens, à la frontière des cantons de Fribourg et Vaud, Pittet Aménagements a été fondé en
+                2022 par Olivier Pittet. Titulaire d'un CFC d'ébéniste et riche de plusieurs années d'expérience dans le
+                milieu social et la construction, il fabrique et installe des aménagements adaptés à toutes les
+                catégories de la population.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Il a développé ses compétences en serrurerie, paysagisme et finitions pour proposer
-                des installations durables, ergonomiques et esthétiques qui améliorent la qualité de vie.
+                Il a développé ses compétences en serrurerie, paysagisme et finitions pour proposer des installations
+                durables, ergonomiques et esthétiques qui améliorent la qualité de vie.
               </p>
             </div>
           </div>
@@ -128,14 +118,11 @@ const Index = () => {
         {/* Services */}
         <section className="section-padding" aria-label="Services">
           <div className="container-narrow mx-auto text-center mb-16">
-            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-              Les services
-            </p>
-            <h2 className="text-3xl md:text-4xl mb-6">
-              Un savoir-faire polyvalent
-            </h2>
+            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Les services</p>
+            <h2 className="text-3xl md:text-4xl mb-6">Un savoir-faire polyvalent</h2>
             <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Ayant un énorme plaisir à collaborer avec vous, Olivier Pittet vous écoute, trouve avec vous la meilleure solution et réalise avec vous votre projet.
+              Ayant un énorme plaisir à collaborer avec vous, Olivier Pittet vous écoute, trouve avec vous la meilleure
+              solution et réalise avec vous votre projet.
             </p>
           </div>
           <div className="container-narrow mx-auto grid md:grid-cols-3 gap-10">
@@ -162,11 +149,7 @@ const Index = () => {
                 image: equipementProjet,
               },
             ].map((service) => (
-              <Link
-                key={service.title}
-                to={service.link}
-                className="group"
-              >
+              <Link key={service.title} to={service.link} className="group">
                 <div className="overflow-hidden mb-6">
                   <img
                     src={service.image}
