@@ -31,7 +31,7 @@ const Index = () => {
               Aménagements sur mesure
             </h1>
             <p className="text-lg md:text-xl text-white/70 font-light mb-10 max-w-xl">
-              Expert en places de jeux, aménagements intérieurs & extérieurs pour communes, écoles et institutions en Suisse.
+              Pittet Aménagements propose des services d'aménagements intérieurs et extérieurs aux institutions comme aux particuliers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
