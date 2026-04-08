@@ -29,6 +29,7 @@ const Footer = () => {
               <Link to="/expertise-places-de-jeux" className="block text-sm text-background/50 hover:text-background transition-colors">Expertise Places de Jeux</Link>
               <Link to="/autres-prestations" className="block text-sm text-background/50 hover:text-background transition-colors">Aménagements</Link>
               <Link to="/realisations" className="block text-sm text-background/50 hover:text-background transition-colors">Réalisations</Link>
+              <Link to="/contact" className="block text-sm text-background/50 hover:text-background transition-colors">Contact</Link>
             </nav>
           </div>
 
