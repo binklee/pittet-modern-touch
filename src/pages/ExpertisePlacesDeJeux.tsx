@@ -108,15 +108,15 @@ const ExpertisePlacesDeJeux = () => {
               {[
                 {
                   title: "Communes",
-                  desc: "Contrôle et aménagement des places de jeux publiques, parcs et espaces communaux.",
+                  desc: "Contrôle et aménagement des places de jeux publiques, parcours Vita, parcs et espaces communaux.",
                 },
                 {
                   title: "Écoles & Crèches",
-                  desc: "Sécurisation et adaptation des cours de récréation et espaces de jeux scolaires.",
+                  desc: "Sécurisation des cours de récréation, espaces de jeux et installations sportives extérieures.",
                 },
                 {
                   title: "Institutions",
-                  desc: "Aménagements adaptés pour les institutions spécialisées et centres d'accueil.",
+                  desc: "Aménagements adaptés pour les institutions spécialisées, centres d'accueil et espaces de fitness extérieur.",
                 },
               ].map((item) => (
                 <div key={item.title} className="p-8">
