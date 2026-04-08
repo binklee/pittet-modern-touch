@@ -8,6 +8,7 @@ import heroPlayground from "@/assets/hero-playground.jpg";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import heroPrestations from "@/assets/hero-prestations.jpg";
 import expertiseControle from "@/assets/expertise-controle.jpg";
+import piezometre from "@/assets/piezometre.jpg";
 
 const categories = [
   "Toutes",
