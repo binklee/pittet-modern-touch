@@ -9,6 +9,7 @@ const navItems = [
   { label: "Expertise Places de Jeux", path: "/expertise-places-de-jeux" },
   { label: "Aménagements", path: "/autres-prestations" },
   { label: "Réalisations", path: "/realisations" },
+  { label: "Contact", path: "/contact" },
 ];
 
 const Header = () => {
