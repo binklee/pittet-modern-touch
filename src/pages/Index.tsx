@@ -57,7 +57,7 @@ const Index = () => {
               </p>
               <div className="space-y-4 mb-10">
                 {[
-                  "Contrôle de sécurité selon les normes SN EN 1176/1177",
+                  "Contrôle de sécurité selon les normes SN EN 1176/16630",
                   "Conception et installation sur mesure",
                   "Maintenance et entretien périodique",
                   "Expertise et conseil pour collectivités",
