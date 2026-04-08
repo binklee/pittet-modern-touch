@@ -32,7 +32,7 @@ const ExpertisePlacesDeJeux = () => {
                 aussi réaliser les travaux de mise en conformité.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Fort de son expérience en ébénisterie et en construction, je possède une connaissance approfondie des
+                Fort de mon expérience en ébénisterie et en construction, je possède une connaissance approfondie des
                 matériaux, des structures et des normes de sécurité applicables aux places de jeux, équipements de
                 fitness extérieur et parcours Vita, qu'ils soient publics ou privés.
               </p>
@@ -52,7 +52,7 @@ const ExpertisePlacesDeJeux = () => {
         <section className="section-padding bg-secondary" aria-label="Prestations places de jeux">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Nos prestations</p>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Prestations</p>
               <h2 className="text-3xl md:text-4xl">Un accompagnement complet</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-10">
