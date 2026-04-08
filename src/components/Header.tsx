@@ -24,6 +24,9 @@ const Header = () => {
             src={pittetLogo}
             alt="Pittet Aménagements"
             className="h-16"
+            width={89}
+            height={64}
+            fetchPriority="high"
           />
         </Link>
 
