@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
-import heroPrestations from "@/assets/hero-prestations.jpg";
+import heroPrestations from "@/assets/institutions-projet.jpg";
 
 const AutresPrestations = () => {
   return (

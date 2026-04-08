@@ -162,7 +162,7 @@ const Index = () => {
                 title: "Entretien & Réparations",
                 desc: "Maintenance, réparations diverses, menuiserie, jardinage et services multiservice.",
                 link: "/autres-prestations",
-                image: heroAmenagement,
+                image: equipementProjet,
               },
             ].map((service) => (
               <Link
