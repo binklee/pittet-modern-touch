@@ -84,7 +84,7 @@ const Index = () => {
               <img
                 src={expertiseControle}
                 alt="Contrôle de sécurité d'une place de jeux par Pittet Aménagements"
-                className="w-full object-cover aspect-[4/3]"
+                className="w-full object-cover aspect-[3/4]"
                 loading="lazy"
                 width={1920}
                 height={1080}
