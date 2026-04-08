@@ -106,14 +106,14 @@ const Index = () => {
               },
               {
                 icon: Wrench,
-                title: "Aménagements Spécialisés",
-                desc: "Aménagements intérieurs et extérieurs pour institutions, écoles et collectivités.",
+                title: "Aménagements",
+                desc: "Aménagements intérieurs et extérieurs.",
                 image: heroPrestations,
               },
               {
                 icon: TreePine,
                 title: "Équipement, machines et outillage complets",
-                desc: "Machine de terrassement, forage, maçonnerie, construction métalique et menuiserie.",
+                desc: "Machine de terrassement, forage, maçonnerie, construction métallique et menuiserie.",
                 image: equipementProjet,
               },
             ].map((service) => (
