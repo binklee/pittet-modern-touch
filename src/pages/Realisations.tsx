@@ -48,6 +48,8 @@ const realisations: Realisation[] = [
     category: "Extérieur",
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
+  { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
+  { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
   { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
   { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
