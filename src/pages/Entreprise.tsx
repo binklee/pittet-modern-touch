@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
+import entrepriseOlivier from "@/assets/entreprise-olivier.jpg";
 
 const avantages = [
   {
