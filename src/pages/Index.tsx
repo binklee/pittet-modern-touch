@@ -57,7 +57,7 @@ const Index = () => {
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 Pittet Aménagements est spécialisé dans le contrôle, l'expertise et l'aménagement
-                de places de jeux conformes aux normes de sécurité suisses. Nous accompagnons les communes,
+                de places de jeux conformes aux normes de sécurité suisses. J'accompagne les communes,
                 les écoles et les institutions dans la création d'espaces de jeux sûrs et adaptés.
               </p>
               <div className="space-y-4 mb-10">
