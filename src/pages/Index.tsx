@@ -8,6 +8,7 @@ import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import expertiseControle from "@/assets/parcoursvita.jpg";
 import heroPrestations from "@/assets/institutions-projet.jpg";
 import equipementProjet from "@/assets/equipement-projet.jpg";
+import auditPlaceDeJeux from "@/assets/audit-place-de-jeux.jpeg";
 
 const Index = () => {
   return (
