@@ -102,36 +102,33 @@ const Index = () => {
                 icon: Shield,
                 title: "Expertise Places de Jeux",
                 desc: "Contrôle de sécurité, conception et installation de places de jeux conformes aux normes suisses.",
-                link: "/expertise-places-de-jeux",
                 image: heroPlayground,
               },
               {
                 icon: Wrench,
                 title: "Aménagements Spécialisés",
                 desc: "Aménagements intérieurs et extérieurs pour institutions, écoles et collectivités.",
-                link: "/autres-prestations",
                 image: heroPrestations,
               },
               {
                 icon: TreePine,
-                title: "Entretien & Réparations",
+                title: "Équipement, machines et outillage complets",
                 desc: "Maintenance, réparations diverses, menuiserie, jardinage et services multiservice.",
-                link: "/autres-prestations",
                 image: equipementProjet,
               },
             ].map((service) => (
-              <Link key={service.title} to={service.link} className="group">
+              <div key={service.title}>
                 <div className="overflow-hidden mb-6">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full aspect-[3/2] object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full aspect-[3/2] object-cover"
                     loading="lazy"
                   />
                 </div>
                 <h3 className="text-lg mb-3">{service.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">{service.desc}</p>
-              </Link>
+              </div>
             ))}
           </div>
         </section>
