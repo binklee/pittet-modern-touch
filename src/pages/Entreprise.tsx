@@ -9,7 +9,7 @@ const avantages = [
   {
     icon: Briefcase,
     title: "Service complet",
-    desc: "Un interlocuteur polyvalant avec son réseau pour votre petit ou grand projet d'aménagement.",
+    desc: "Un interlocuteur polyvalent avec son réseau pour votre petit ou grand projet d'aménagement.",
   },
   {
     icon: Heart,
