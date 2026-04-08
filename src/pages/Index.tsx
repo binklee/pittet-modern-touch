@@ -102,14 +102,12 @@ const Index = () => {
                 icon: Shield,
                 title: "Expertise Places de Jeux",
                 desc: "Contrôle de sécurité, conception et installation de places de jeux conformes aux normes suisses.",
-                link: "/expertise-places-de-jeux",
                 image: heroPlayground,
               },
               {
                 icon: Wrench,
                 title: "Aménagements Spécialisés",
                 desc: "Aménagements intérieurs et extérieurs pour institutions, écoles et collectivités.",
-                link: "/autres-prestations",
                 image: heroPrestations,
               },
               {
