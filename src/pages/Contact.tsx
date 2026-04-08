@@ -1,26 +1,21 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PageHero from "@/components/PageHero";
-import heroPrestations from "@/assets/institutions-projet.jpg";
 
 const Contact = () => {
   return (
     <>
       <Header />
       <main className="pt-[73px]">
-        <PageHero
-          title="Contact"
-          subtitle="Je reste disponible pour toutes vos demandes"
-          image={heroPrestations}
-        />
-
         {/* Intro */}
         <section className="section-padding" aria-label="Introduction contact">
           <div className="container-narrow mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl md:text-4xl mb-6">
+            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
+              Contact
+            </p>
+            <h1 className="text-3xl md:text-4xl mb-6">
               Vous souhaitez faire appel à Pittet Aménagements ?
-            </h2>
+            </h1>
             <p className="text-muted-foreground leading-relaxed">
               N'hésitez pas à appeler Olivier Pittet, à lui envoyer un mail ou à lui écrire.
               Il vous recontactera dans les plus brefs délais.
