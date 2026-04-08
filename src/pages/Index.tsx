@@ -8,6 +8,7 @@ import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import expertiseControle from "@/assets/parcoursvita.jpg";
 import heroPrestations from "@/assets/institutions-projet.jpg";
 import equipementProjet from "@/assets/equipement-projet.jpg";
+import auditPlaceDeJeux from "@/assets/audit-place-de-jeux.jpeg";
 
 const Index = () => {
   return (
@@ -102,7 +103,7 @@ const Index = () => {
                 icon: Shield,
                 title: "Expertise Places de Jeux",
                 desc: "Contrôle de sécurité, conception et installation de places de jeux conformes aux normes suisses.",
-                image: heroPlayground,
+                image: auditPlaceDeJeux,
               },
               {
                 icon: Wrench,
