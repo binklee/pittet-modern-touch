@@ -13,6 +13,8 @@ const Footer = () => {
               src={pittetLogo}
               alt="Pittet Aménagements"
               className="h-16 mb-6 brightness-0 invert"
+              width={89}
+              height={64}
             />
             <p className="text-background/50 text-sm leading-relaxed">
               Expert en contrôle et aménagement de places de jeux en Suisse.
