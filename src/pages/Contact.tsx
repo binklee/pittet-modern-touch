@@ -7,53 +7,36 @@ const Contact = () => {
     <>
       <Header />
       <main className="pt-[73px]">
-        {/* Intro */}
         <section className="section-padding" aria-label="Introduction contact">
           <div className="container-narrow mx-auto max-w-3xl text-center">
             <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Contact</p>
             <h1 className="text-3xl md:text-4xl mb-6">Vous souhaitez faire appel à Pittet Aménagements ?</h1>
-            <p className="text-muted-foreground leading-relaxed">N'hésitez pas à me contacter.</p>
-          </div>
-        </section>
+            <p className="text-muted-foreground leading-relaxed mb-10">N'hésitez pas à me contacter.</p>
 
-        {/* Contact Info */}
-        <section className="section-padding bg-secondary" aria-label="Coordonnées">
-          <div className="container-narrow mx-auto">
-            <div className="grid md:grid-cols-3 gap-10">
-              <div className="bg-background p-10 text-center">
-                <MapPin className="w-8 h-8 text-foreground mb-4 mx-auto" />
-                <h3 className="text-lg mb-2">Adresse</h3>
-                <a
-                  href="https://www.google.com/maps/place/Olivier+PITTET+am%C3%A9nagements/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors leading-relaxed"
-                >
-                  Chemin de la Corba 30
-                  <br />
-                  1673 Gillarens
-                </a>
-              </div>
-              <div className="bg-background p-10 text-center">
-                <Mail className="w-8 h-8 text-foreground mb-4 mx-auto" />
-                <h3 className="text-lg mb-2">Email</h3>
-                <a
-                  href="mailto:pittet.amenagements@gmail.com"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  pittet.amenagements@gmail.com
-                </a>
-              </div>
-              <div className="bg-background p-10 text-center">
-                <Phone className="w-8 h-8 text-foreground mb-4 mx-auto" />
-                <h3 className="text-lg mb-2">Téléphone</h3>
-                <a
-                  href="tel:+41793395594"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  +41 79 339 55 94
-                </a>
-              </div>
+            <div className="flex flex-col gap-4 items-center text-base">
+              <a
+                href="https://www.google.com/maps/place/Olivier+PITTET+am%C3%A9nagements/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <MapPin className="w-5 h-5 shrink-0" />
+                Chemin de la Corba 30, 1673 Gillarens
+              </a>
+              <a
+                href="mailto:pittet.amenagements@gmail.com"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Mail className="w-5 h-5 shrink-0" />
+                pittet.amenagements@gmail.com
+              </a>
+              <a
+                href="tel:+41793395594"
+                className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Phone className="w-5 h-5 shrink-0" />
+                +41 79 339 55 94
+              </a>
             </div>
           </div>
         </section>
