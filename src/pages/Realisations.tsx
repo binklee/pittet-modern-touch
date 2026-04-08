@@ -9,6 +9,9 @@ import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import heroPrestations from "@/assets/hero-prestations.jpg";
 import expertiseControle from "@/assets/expertise-controle.jpg";
 import piezometre from "@/assets/piezometre.jpg";
+import autresOlivier from "@/assets/real-autres-olivier.jpg";
+import autresMachine from "@/assets/real-autres-machine.jpg";
+import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
 
 const categories = [
   "Toutes",
