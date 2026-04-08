@@ -3,8 +3,8 @@ import { ArrowRight, Shield, Wrench, TreePine, CheckCircle } from "lucide-react"
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
-import heroPlayground from "@/assets/hero-playground.jpg";
-import heroAmenagement from "@/assets/hero-amenagement.jpg";
+import heroAccueil from "@/assets/hero-accueil.jpg";
+
 import expertiseControle from "@/assets/parcoursvita.jpg";
 import heroPrestations from "@/assets/institutions-projet.jpg";
 import equipementProjet from "@/assets/equipement-projet.jpg";
@@ -18,7 +18,7 @@ const Index = () => {
         {/* Hero */}
         <section className="relative min-h-screen flex items-center" aria-label="Introduction">
           <img
-            src={heroPlayground}
+            src={heroAccueil}
             alt="Place de jeux sécurisée aménagée par Pittet Aménagements en Suisse"
             className="absolute inset-0 w-full h-full object-cover"
             width={1920}
