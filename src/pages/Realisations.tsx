@@ -38,6 +38,7 @@ const realisations: Realisation[] = [
     category: "Extérieur",
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
+  { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
 ];
 
 const Realisations = () => {
