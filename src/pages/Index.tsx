@@ -113,7 +113,7 @@ const Index = () => {
               {
                 icon: TreePine,
                 title: "Équipement, machines et outillage complets",
-                desc: "Maintenance, réparations diverses, menuiserie, jardinage et services multiservice.",
+                desc: "Machine de terrassement, forage, construction métalique et menuiserie.",
                 image: equipementProjet,
               },
             ].map((service) => (
