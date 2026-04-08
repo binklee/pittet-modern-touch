@@ -8,6 +8,7 @@ import heroPlayground from "@/assets/hero-playground.jpg";
 import heroAmenagement from "@/assets/hero-amenagement.jpg";
 import heroPrestations from "@/assets/hero-prestations.jpg";
 import expertiseControle from "@/assets/expertise-controle.jpg";
+import piezometre from "@/assets/piezometre.jpg";
 
 const categories = [
   "Toutes",
@@ -37,6 +38,7 @@ const realisations: Realisation[] = [
     category: "Extérieur",
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
+  { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
 ];
 
 const Realisations = () => {
