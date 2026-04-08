@@ -25,9 +25,6 @@ const Index = () => {
           />
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 px-6 md:px-12 lg:px-20 max-w-3xl mt-20 animate-fade-in-up">
-            <p className="text-white/70 font-semibold tracking-[0.2em] uppercase text-xs mb-6">
-              &nbsp;
-            </p>
             <h1 className="text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
               Aménagements sur mesure
             </h1>
