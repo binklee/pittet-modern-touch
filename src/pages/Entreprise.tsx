@@ -44,11 +44,12 @@ const Entreprise = () => {
     <>
       <Header />
       <main className="pt-[73px]">
-        <PageHero
-          title="L'entreprise"
-          subtitle="Créer des installations accessibles pour tous"
-          image={heroAmenagement}
-        />
+        <section className="pt-16 pb-8">
+          <div className="container-narrow mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl mb-4">L'entreprise</h1>
+            <p className="text-lg text-muted-foreground font-light">Créer des installations accessibles pour tous</p>
+          </div>
+        </section>
 
         {/* Histoire */}
         <section className="section-padding" aria-label="Histoire de l'entreprise">
