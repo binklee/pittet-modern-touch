@@ -7,15 +7,20 @@ const Contact = () => {
     <>
       <Header />
       <main className="pt-[73px]">
-        {/* Contact */}
-        <section className="section-padding" aria-label="Coordonnées">
+        {/* Intro */}
+        <section className="section-padding" aria-label="Introduction contact">
+          <div className="container-narrow mx-auto max-w-3xl text-center">
+            <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Contact</p>
+            <h1 className="text-3xl md:text-4xl mb-6">Vous souhaitez faire appel à Pittet Aménagements ?</h1>
+            <p className="text-muted-foreground leading-relaxed">N'hésitez pas à me contacter.</p>
+          </div>
+        </section>
+
+        {/* Contact Info */}
+        <section className="section-padding bg-secondary" aria-label="Coordonnées">
           <div className="container-narrow mx-auto">
-            <div className="text-center mb-12">
-              <h1 className="text-3xl md:text-4xl mb-4">Contact</h1>
-              <p className="text-muted-foreground">N'hésitez pas à me contacter.</p>
-            </div>
             <div className="grid md:grid-cols-3 gap-10">
-              <div className="bg-secondary p-10 text-center">
+              <div className="bg-background p-10 text-center">
                 <MapPin className="w-8 h-8 text-foreground mb-4 mx-auto" />
                 <h3 className="text-lg mb-2">Adresse</h3>
                 <a
@@ -24,10 +29,12 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors leading-relaxed"
                 >
-                  Chemin de la Corba 30<br />1673 Gillarens
+                  Chemin de la Corba 30
+                  <br />
+                  1673 Gillarens
                 </a>
               </div>
-              <div className="bg-secondary p-10 text-center">
+              <div className="bg-background p-10 text-center">
                 <Mail className="w-8 h-8 text-foreground mb-4 mx-auto" />
                 <h3 className="text-lg mb-2">Email</h3>
                 <a
@@ -37,7 +44,7 @@ const Contact = () => {
                   pittet.amenagements@gmail.com
                 </a>
               </div>
-              <div className="bg-secondary p-10 text-center">
+              <div className="bg-background p-10 text-center">
                 <Phone className="w-8 h-8 text-foreground mb-4 mx-auto" />
                 <h3 className="text-lg mb-2">Téléphone</h3>
                 <a
