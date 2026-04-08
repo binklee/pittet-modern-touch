@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import pittetLogo from "@/assets/pittet-logo.png";
 
 const navItems = [
@@ -9,6 +9,7 @@ const navItems = [
   { label: "Expertise Places de Jeux", path: "/expertise-places-de-jeux" },
   { label: "Aménagements", path: "/autres-prestations" },
   { label: "Réalisations", path: "/realisations" },
+  { label: "Contact", path: "/contact" },
 ];
 
 const Header = () => {
@@ -39,13 +40,6 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <a
-            href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-foreground text-background px-5 py-2.5 text-xs font-semibold tracking-[0.1em] uppercase hover:bg-foreground/80 transition-colors"
-          >
-            <Phone className="w-3.5 h-3.5" />
-            Contact
-          </a>
         </nav>
 
         {/* Mobile toggle */}
@@ -73,13 +67,6 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <a
-            href="tel:+41793395594"
-            className="inline-flex items-center gap-2 bg-foreground text-background px-5 py-2.5 text-xs font-semibold tracking-[0.1em] uppercase mt-2"
-          >
-            <Phone className="w-3.5 h-3.5" />
-            +41 79 339 55 94
-          </a>
         </nav>
       )}
     </header>
