@@ -25,18 +25,19 @@ const ExpertisePlacesDeJeux = () => {
                 Notre expertise
               </p>
               <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
-                La sécurité de vos places de jeux, notre priorité
+                La sécurité de vos installations, notre priorité
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Pittet Aménagements est votre partenaire de confiance pour le contrôle et l'expertise
-                de places de jeux en Suisse. Nous vérifions la conformité de vos installations selon
-                les normes SN EN 1176 et SN EN 1177, et vous accompagnons dans la mise en sécurité
-                de vos espaces de jeux.
+                de places de jeux, d'espaces de fitness extérieur et de parcours Vita en Suisse.
+                Nous vérifions la conformité de vos installations selon les normes SN EN 1176 et SN EN 1177,
+                et vous accompagnons dans la mise en sécurité de vos espaces.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Fort de son expérience en ébénisterie et en construction, Olivier Pittet possède
                 une connaissance approfondie des matériaux, des structures et des normes de sécurité
-                applicables aux places de jeux publiques et privées.
+                applicables aux places de jeux, équipements de fitness extérieur et parcours Vita,
+                qu'ils soient publics ou privés.
               </p>
             </div>
             <img
