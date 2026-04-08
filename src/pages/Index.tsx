@@ -103,7 +103,7 @@ const Index = () => {
                 icon: Shield,
                 title: "Expertise Places de Jeux",
                 desc: "Contrôle de sécurité, conception et installation de places de jeux conformes aux normes suisses.",
-                image: heroPlayground,
+                image: auditPlaceDeJeux,
               },
               {
                 icon: Wrench,
