@@ -21,23 +21,20 @@ const ExpertisePlacesDeJeux = () => {
         <section className="section-padding" aria-label="Introduction expertise">
           <div className="container-narrow mx-auto grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Notre expertise
-              </p>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Notre expertise</p>
               <h2 className="text-3xl md:text-4xl mb-8 leading-snug">
                 La sécurité de vos installations, notre priorité
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Pittet Aménagements est votre partenaire de confiance pour le contrôle et l'expertise
-                de places de jeux, d'espaces de fitness extérieur et de parcours Vita en Suisse.
-                Nous vérifions la conformité de vos installations selon les normes SN EN 1176 et SN EN 1177,
-                et vous accompagnons dans la mise en sécurité de vos espaces.
+                Pittet Aménagements est votre partenaire de confiance pour le contrôle et l'expertise de places de jeux,
+                d'espaces de fitness extérieur et de parcours Vita en Suisse. Je vérifie la conformité de vos
+                installations selon les normes SN EN 1176 et SN EN 16630. Je vous produis un rapport avec images et peux
+                aussi réaliser les travaux de mise en conformité.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Fort de son expérience en ébénisterie et en construction, Olivier Pittet possède
-                une connaissance approfondie des matériaux, des structures et des normes de sécurité
-                applicables aux places de jeux, équipements de fitness extérieur et parcours Vita,
-                qu'ils soient publics ou privés.
+                Fort de son expérience en ébénisterie et en construction, je possède une connaissance approfondie des
+                matériaux, des structures et des normes de sécurité applicables aux places de jeux, équipements de
+                fitness extérieur et parcours Vita, qu'ils soient publics ou privés.
               </p>
             </div>
             <img
@@ -55,12 +52,8 @@ const ExpertisePlacesDeJeux = () => {
         <section className="section-padding bg-secondary" aria-label="Prestations places de jeux">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
-              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">
-                Nos prestations
-              </p>
-              <h2 className="text-3xl md:text-4xl">
-                Un accompagnement complet
-              </h2>
+              <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Nos prestations</p>
+              <h2 className="text-3xl md:text-4xl">Un accompagnement complet</h2>
             </div>
             <div className="grid md:grid-cols-2 gap-10">
               {[
@@ -85,10 +78,7 @@ const ExpertisePlacesDeJeux = () => {
                   desc: "Entretien régulier de vos installations récréatives et sportives. Réparations, remplacement de pièces usées et mise à jour des équipements.",
                 },
               ].map((service) => (
-                <div
-                  key={service.title}
-                  className="bg-background p-10"
-                >
+                <div key={service.title} className="bg-background p-10">
                   <service.icon className="w-8 h-8 text-foreground mb-6" />
                   <h3 className="text-lg mb-3">{service.title}</h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">{service.desc}</p>
@@ -127,7 +117,6 @@ const ExpertisePlacesDeJeux = () => {
             </div>
           </div>
         </section>
-
 
         <CTASection />
       </main>
