@@ -87,15 +87,13 @@ const Index = () => {
           </div>
         </section>
 
-
         {/* Services */}
         <section className="section-padding" aria-label="Services">
           <div className="container-narrow mx-auto text-center mb-16">
             <p className="text-accent font-semibold tracking-[0.2em] uppercase text-xs mb-4">Les services</p>
             <h2 className="text-3xl md:text-4xl mb-6">Un savoir-faire polyvalent</h2>
             <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Ayant un énorme plaisir à collaborer avec vous, Olivier Pittet vous écoute, trouve avec vous la meilleure
-              solution et réalise avec vous votre projet.
+              Olivier Pittet réalise seul ou avec son réseau l'entier de votre projet.
             </p>
           </div>
           <div className="container-narrow mx-auto grid md:grid-cols-3 gap-10">
