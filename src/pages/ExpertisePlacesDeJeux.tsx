@@ -92,7 +92,7 @@ const ExpertisePlacesDeJeux = () => {
         <section className="section-padding" aria-label="Pour qui">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl">À qui s'adresse notre expertise ?</h2>
+              <h2 className="text-3xl md:text-4xl">À qui s'adresse mon expertise ?</h2>
             </div>
             <div className="grid md:grid-cols-3 gap-10 text-center">
               {[
