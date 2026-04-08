@@ -28,40 +28,50 @@ const AutresPrestations = () => {
               </p>
               <h2 className="text-3xl md:text-4xl">Compétences</h2>
             </div>
-            <div className="grid md:grid-cols-3 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
               {[
                 {
-                  icon: Home,
-                  title: "Mobilier & Bâtiments",
+                  icon: Hammer,
+                  title: "Menuiserie",
                   items: [
-                    "Transport et montage de meubles",
-                    "Installations diverses (tableaux, étagères, supports)",
-                    "Lavage haute pression des surfaces extérieures",
-                    "Lasure et peinture de façades",
-                    "Réglage des portes et fenêtres",
-                    "Nettoyage joints, parquets, canapés",
+                    "Fabrication de mobilier sur mesure",
+                    "Pose de parquets et lambris",
+                    "Agencements intérieurs",
+                    "Restauration de boiseries",
+                    "Portes et fenêtres",
                   ],
                 },
                 {
                   icon: TreePine,
-                  title: "Jardins",
+                  title: "Paysagisme",
                   items: [
-                    "Taille de végétaux",
-                    "Entretien des bacs végétalisés",
-                    "Maintenance des installations extérieures",
-                    "Terrassement et aménagement paysager",
-                    "Forage et ancrage",
+                    "Aménagement de jardins",
+                    "Terrassement et nivellement",
+                    "Bacs végétalisés et plantations",
+                    "Clôtures et palissades",
+                    "Entretien d'espaces verts",
                   ],
                 },
                 {
                   icon: Wrench,
-                  title: "Réparations multiples",
+                  title: "Maçonnerie",
                   items: [
-                    "Maintenance de vos mobiliers",
-                    "Entretien de vos équipements",
-                    "Soutien à la mise en place de projets",
-                    "Renouvellement du matériel",
-                    "Service à la demande",
+                    "Murs et murets",
+                    "Dallages et pavages",
+                    "Escaliers extérieurs",
+                    "Fondations et ancrages",
+                    "Rénovation de surfaces",
+                  ],
+                },
+                {
+                  icon: Lock,
+                  title: "Serrurerie",
+                  items: [
+                    "Pose et remplacement de serrures",
+                    "Ouvrages métalliques sur mesure",
+                    "Rampes et garde-corps",
+                    "Portails et grilles",
+                    "Réparations diverses",
                   ],
                 },
               ].map((service) => (
