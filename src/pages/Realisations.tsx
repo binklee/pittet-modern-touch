@@ -31,39 +31,41 @@ const realisations: Realisation[] = [
   { image: heroPlayground, title: "Place de jeux communale", category: "Places de jeux, fitness et parcours Vita" },
   { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
   { image: heroPrestations, title: "Mobilier extérieur sur mesure", category: "Extérieur" },
-  { image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagements-Accueil-Header-2.jpg", title: "Aménagement extérieur", category: "Extérieur" },
+  {
+    image: "https://pittet-amenagements.ch/wp-content/uploads/2023/04/PittetAmenagements-Accueil-Header-2.jpg",
+    title: "Aménagement extérieur",
+    category: "Extérieur",
+  },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Intérieur" },
 ];
 
 const Realisations = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("Toutes");
 
-  const filtered = activeCategory === "Toutes"
-    ? realisations
-    : realisations.filter((r) => r.category === activeCategory);
+  const filtered =
+    activeCategory === "Toutes" ? realisations : realisations.filter((r) => r.category === activeCategory);
 
   return (
     <>
       <Header />
       <main className="pt-[73px]">
-        <PageHero
-          title="Nos Réalisations"
-          subtitle="Découvrez les projets réalisés par Pittet Aménagements"
-          image={heroRealisations}
-          compact
-        />
+        <PageHero title="Réalisations" image={heroRealisations} compact />
 
         <section className="section-padding" aria-label="Galerie de réalisations">
           <div className="container-narrow mx-auto">
             <div className="text-center mb-12">
               <p className="text-muted-foreground max-w-xl mx-auto">
-                Si l'expertise d'Olivier Pittet vous intéresse, n'hésitez pas à le contacter
-                pour discuter ensemble de vos projets.
+                Si l'expertise d'Olivier Pittet vous intéresse, n'hésitez pas à le contacter pour discuter ensemble de
+                vos projets.
               </p>
             </div>
 
             {/* Category Filter */}
-            <div className="flex flex-wrap justify-center gap-3 mb-16" role="tablist" aria-label="Filtrer par catégorie">
+            <div
+              className="flex flex-wrap justify-center gap-3 mb-16"
+              role="tablist"
+              aria-label="Filtrer par catégorie"
+            >
               {categories.map((cat) => (
                 <button
                   key={cat}
@@ -84,10 +86,7 @@ const Realisations = () => {
             {/* Gallery Grid */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {filtered.map((item, i) => (
-                <div
-                  key={`${item.title}-${i}`}
-                  className="group relative overflow-hidden aspect-[4/3] cursor-pointer"
-                >
+                <div key={`${item.title}-${i}`} className="group relative overflow-hidden aspect-[4/3] cursor-pointer">
                   <img
                     src={item.image}
                     alt={item.title}
@@ -96,7 +95,9 @@ const Realisations = () => {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end">
                     <div className="p-6 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                      <span className="text-xs text-white/60 font-semibold uppercase tracking-[0.15em]">{item.category}</span>
+                      <span className="text-xs text-white/60 font-semibold uppercase tracking-[0.15em]">
+                        {item.category}
+                      </span>
                       <h3 className="text-white text-lg">{item.title}</h3>
                     </div>
                   </div>
