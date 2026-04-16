@@ -26,6 +26,9 @@ import extMurPierre from "@/assets/real-ext-mur-pierre.jpg";
 import extBarrieres2 from "@/assets/real-ext-barrieres2.jpg";
 import extPrairie from "@/assets/real-ext-prairie.jpg";
 import extFacade from "@/assets/real-ext-facade.jpg";
+import extBarriere3 from "@/assets/real-ext-barriere3.jpg";
+import extTerrasse3 from "@/assets/real-ext-terrasse3.jpg";
+import extPortail from "@/assets/real-ext-portail.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
@@ -90,6 +93,9 @@ const realisations: Realisation[] = [
   { image: extBarrieres2, title: "Fabrication et pose de barrières", category: "Extérieur" },
   { image: extPrairie, title: "Création de prairie fleurie", category: "Extérieur" },
   { image: extFacade, title: "Rénovation de façade", category: "Extérieur" },
+  { image: extBarriere3, title: "Fabrication et installation de barrières", category: "Extérieur" },
+  { image: extTerrasse3, title: "Installation de terrasse", category: "Extérieur" },
+  { image: extPortail, title: "Installation de portail", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
