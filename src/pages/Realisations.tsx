@@ -20,6 +20,9 @@ import intCuisine from "@/assets/real-int-cuisine.jpg";
 import intSol from "@/assets/real-int-sol.jpg";
 import pdjVita from "@/assets/real-pdj-vita.jpeg";
 import pdjPanneau from "@/assets/real-pdj-panneau.jpeg";
+import pdjFitness from "@/assets/real-pdj-fitness.jpg";
+import pdjFitness2 from "@/assets/real-pdj-fitness2.jpg";
+import pdjGabarit from "@/assets/real-pdj-gabarit.png";
 
 const categories = [
   "Toutes",
@@ -44,6 +47,9 @@ const realisations: Realisation[] = [
   { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjVita, title: "Installation parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjPanneau, title: "Panneau parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjFitness, title: "Fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjFitness2, title: "Équipement fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjGabarit, title: "Gabarits de contrôle SN EN 1176", category: "Places de jeux, fitness et parcours Vita" },
   { image: extBanc, title: "Banc extérieur sur mesure", category: "Extérieur" },
   { image: extTerrasse, title: "Terrasse et escalier", category: "Extérieur" },
   {
