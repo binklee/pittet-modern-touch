@@ -10,6 +10,9 @@ import extBanc from "@/assets/real-ext-banc.jpg";
 import extTerrasse from "@/assets/real-ext-terrasse.jpg";
 import expertiseControle from "@/assets/expertise-controle.jpg";
 import piezometre from "@/assets/piezometre.jpg";
+import piezo2 from "@/assets/real-piezo-2.jpg";
+import piezoEtancheite from "@/assets/real-piezo-etancheite.jpg";
+import piezo3 from "@/assets/real-piezo-3.jpg";
 import autresOlivier from "@/assets/real-autres-olivier.jpg";
 import autresMachine from "@/assets/real-autres-machine.jpg";
 import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
@@ -61,6 +64,9 @@ const realisations: Realisation[] = [
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
+  { image: piezo2, title: "Tube piézométrique", category: "Piézomètre" },
+  { image: piezoEtancheite, title: "Étanchéité après enlèvement tubes", category: "Piézomètre" },
+  { image: piezo3, title: "Installation piézomètre", category: "Piézomètre" },
   { image: autresOlivier, title: "Travail de serrurerie", category: "Autres" },
   { image: autresMachine, title: "Machine de terrassement", category: "Autres" },
   { image: autresBienvenue, title: "Panneau de bienvenue", category: "Autres" },
