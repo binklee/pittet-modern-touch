@@ -29,6 +29,9 @@ import extFacade from "@/assets/real-ext-facade.jpg";
 import extBarriere3 from "@/assets/real-ext-barriere3.jpg";
 import extTerrasse3 from "@/assets/real-ext-terrasse3.jpg";
 import extPortail from "@/assets/real-ext-portail.jpg";
+import extPlace from "@/assets/real-ext-place.jpg";
+import extTerrassement from "@/assets/real-ext-terrassement.jpg";
+import extFenetreDetail from "@/assets/real-ext-fenetre-detail.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
@@ -96,6 +99,9 @@ const realisations: Realisation[] = [
   { image: extBarriere3, title: "Fabrication et installation de barrières", category: "Extérieur" },
   { image: extTerrasse3, title: "Installation de terrasse", category: "Extérieur" },
   { image: extPortail, title: "Installation de portail", category: "Extérieur" },
+  { image: extPlace, title: "Place extérieure", category: "Extérieur" },
+  { image: extTerrassement, title: "Terrassement", category: "Extérieur" },
+  { image: extFenetreDetail, title: "Rénovation de fenêtre", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
