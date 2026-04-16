@@ -20,6 +20,9 @@ import intCuisine from "@/assets/real-int-cuisine.jpg";
 import intSol from "@/assets/real-int-sol.jpg";
 import pdjVita from "@/assets/real-pdj-vita.jpeg";
 import pdjPanneau from "@/assets/real-pdj-panneau.jpeg";
+import pdjFitness from "@/assets/real-pdj-fitness.jpg";
+import pdjFitness2 from "@/assets/real-pdj-fitness2.jpg";
+import pdjGabarit from "@/assets/real-pdj-gabarit.png";
 
 const categories = [
   "Toutes",
