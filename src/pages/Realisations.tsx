@@ -29,6 +29,9 @@ import extFacade from "@/assets/real-ext-facade.jpg";
 import extBarriere3 from "@/assets/real-ext-barriere3.jpg";
 import extTerrasse3 from "@/assets/real-ext-terrasse3.jpg";
 import extPortail from "@/assets/real-ext-portail.jpg";
+import extBordures from "@/assets/real-ext-bordures.jpg";
+import extPalissade from "@/assets/real-ext-palissade.jpg";
+import extPlace2 from "@/assets/real-ext-place2.jpg";
 import extPlace from "@/assets/real-ext-place.jpg";
 import extTerrassement from "@/assets/real-ext-terrassement.jpg";
 import extFenetreDetail from "@/assets/real-ext-fenetre-detail.jpg";
@@ -99,6 +102,9 @@ const realisations: Realisation[] = [
   { image: extBarriere3, title: "Fabrication et installation de barrières", category: "Extérieur" },
   { image: extTerrasse3, title: "Installation de terrasse", category: "Extérieur" },
   { image: extPortail, title: "Installation de portail", category: "Extérieur" },
+  { image: extBordures, title: "Pose de bordures", category: "Extérieur" },
+  { image: extPalissade, title: "Palissade et brise-vue", category: "Extérieur" },
+  { image: extPlace2, title: "Aménagement place extérieure", category: "Extérieur" },
   { image: extPlace, title: "Place extérieure", category: "Extérieur" },
   { image: extTerrassement, title: "Terrassement", category: "Extérieur" },
   { image: extFenetreDetail, title: "Rénovation de fenêtre", category: "Extérieur" },
