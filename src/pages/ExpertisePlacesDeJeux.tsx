@@ -1,4 +1,4 @@
-import { CheckCircle, Shield, ClipboardCheck, Wrench, Eye } from "lucide-react";
+import { ClipboardCheck, Shield, Wrench } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
@@ -58,24 +58,24 @@ const ExpertisePlacesDeJeux = () => {
             <div className="grid md:grid-cols-2 gap-10">
               {[
                 {
-                  icon: ClipboardCheck,
-                  title: "Contrôle de sécurité",
-                  desc: "Inspection complète de places de jeux, fitness extérieur et parcours Vita selon les normes SN EN 1176/16630. Vérification de l'état des équipements, des sols amortissants et des points de coincement.",
+                  icon: Wrench,
+                  title: "Concept et installation",
+                  desc: "Conception sur mesure et installation de places de jeux, espaces de fitness extérieur et parcours Vita adaptés à votre environnement.",
                 },
                 {
                   icon: Shield,
-                  title: "Expertise et rapports",
-                  desc: "Rédaction de rapports d'expertise détaillés avec recommandations de mise en conformité pour vos places de jeux, installations de fitness et parcours Vita.",
+                  title: "Contrôle post-installations",
+                  desc: "Vérification après pose pour confirmer la conformité, la sécurité et la bonne mise en service de vos installations.",
+                },
+                {
+                  icon: ClipboardCheck,
+                  title: "Contrôle fonctionnel & Contrôle annuel principal",
+                  desc: "Contrôles réguliers selon les normes en vigueur pour vérifier l'état général, l'usure, les points sensibles et la sécurité d'utilisation.",
                 },
                 {
                   icon: Wrench,
-                  title: "Conception et installation",
-                  desc: "Conception sur mesure de places de jeux, espaces de fitness extérieur et parcours Vita adaptés à votre environnement.",
-                },
-                {
-                  icon: Eye,
                   title: "Maintenance préventive",
-                  desc: "Entretien régulier de vos installations récréatives et sportives. Réparations, remplacement de pièces usées et mise à jour des équipements.",
+                  desc: "Entretien préventif, réparations ciblées et remplacement des éléments usés pour prolonger la durée de vie de vos équipements.",
                 },
               ].map((service) => (
                 <div key={service.title} className="bg-background p-10">
