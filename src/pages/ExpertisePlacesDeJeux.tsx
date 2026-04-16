@@ -1,4 +1,4 @@
-import { CheckCircle, Shield, ClipboardCheck, Wrench, Eye } from "lucide-react";
+import { ClipboardCheck, Shield, Wrench } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageHero from "@/components/PageHero";
