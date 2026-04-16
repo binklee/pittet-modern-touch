@@ -47,6 +47,9 @@ const realisations: Realisation[] = [
   { image: expertiseControle, title: "Contrôle de sécurité", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjVita, title: "Installation parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjPanneau, title: "Panneau parcours Vita", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjFitness, title: "Fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjFitness2, title: "Équipement fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjGabarit, title: "Gabarits de contrôle SN EN 1176", category: "Places de jeux, fitness et parcours Vita" },
   { image: extBanc, title: "Banc extérieur sur mesure", category: "Extérieur" },
   { image: extTerrasse, title: "Terrasse et escalier", category: "Extérieur" },
   {
