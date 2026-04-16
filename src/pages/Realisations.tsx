@@ -25,6 +25,9 @@ import intSurface from "@/assets/real-int-surface.jpg";
 import intCourante from "@/assets/real-int-courante.jpg";
 import intBiblio from "@/assets/real-int-biblio.jpg";
 import intPorte from "@/assets/real-int-porte.jpg";
+import intParquet from "@/assets/real-int-parquet.jpg";
+import intFenetre from "@/assets/real-int-fenetre.jpg";
+import intEtagere from "@/assets/real-int-etagere.jpg";
 import pdjVita from "@/assets/real-pdj-vita.jpeg";
 import pdjPanneau from "@/assets/real-pdj-panneau.jpeg";
 import pdjFitness from "@/assets/real-pdj-fitness.jpg";
@@ -71,6 +74,9 @@ const realisations: Realisation[] = [
   { image: intCourante, title: "Installation main courante", category: "Intérieur" },
   { image: intBiblio, title: "Aménagement bibliothèque", category: "Intérieur" },
   { image: intPorte, title: "Menuiserie et installation porte", category: "Intérieur" },
+  { image: intParquet, title: "Pose de parquet", category: "Intérieur" },
+  { image: intFenetre, title: "Rénovation de fenêtre", category: "Intérieur" },
+  { image: intEtagere, title: "Étagère sur mesure", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
   { image: piezo2, title: "Tube piézométrique", category: "Piézomètre" },
   { image: piezoEtancheite, title: "Étanchéité après enlèvement tubes", category: "Piézomètre" },
