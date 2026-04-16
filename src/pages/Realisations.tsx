@@ -33,6 +33,7 @@ import pdjPanneau from "@/assets/real-pdj-panneau.jpeg";
 import pdjFitness from "@/assets/real-pdj-fitness.jpg";
 import pdjFitness2 from "@/assets/real-pdj-fitness2.jpg";
 import pdjGabarit from "@/assets/real-pdj-gabarit.png";
+import pdjJeuxSol from "@/assets/real-pdj-jeux-sol.jpg";
 
 const categories = [
   "Toutes",
