@@ -20,6 +20,9 @@ import extBarrieres from "@/assets/real-ext-barrieres.jpg";
 import extBancs from "@/assets/real-ext-bancs.jpg";
 import extTerrasse2 from "@/assets/real-ext-terrasse2.jpg";
 import extPergola from "@/assets/real-ext-pergola.jpg";
+import extDrains from "@/assets/real-ext-drains.jpg";
+import extTerrasseSusp from "@/assets/real-ext-terrasse-susp.jpg";
+import extMurPierre from "@/assets/real-ext-mur-pierre.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
@@ -78,10 +81,9 @@ const realisations: Realisation[] = [
   { image: extBancs, title: "Installation de bancs", category: "Extérieur" },
   { image: extTerrasse2, title: "Terrasse en bois", category: "Extérieur" },
   { image: extPergola, title: "Pergola", category: "Extérieur" },
-  { image: extBarrieres, title: "Barrières en chaîne", category: "Extérieur" },
-  { image: extBancs, title: "Installation de bancs", category: "Extérieur" },
-  { image: extTerrasse2, title: "Terrasse en bois", category: "Extérieur" },
-  { image: extPergola, title: "Pergola", category: "Extérieur" },
+  { image: extDrains, title: "Pose de drains et canalisation", category: "Extérieur" },
+  { image: extTerrasseSusp, title: "Terrasse suspendue", category: "Extérieur" },
+  { image: extMurPierre, title: "Mur en pierre et barrière", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
