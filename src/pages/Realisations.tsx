@@ -21,6 +21,10 @@ import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
 import intCuisine from "@/assets/real-int-cuisine.jpg";
 import intSol from "@/assets/real-int-sol.jpg";
+import intSurface from "@/assets/real-int-surface.jpg";
+import intCourante from "@/assets/real-int-courante.jpg";
+import intBiblio from "@/assets/real-int-biblio.jpg";
+import intPorte from "@/assets/real-int-porte.jpg";
 import pdjVita from "@/assets/real-pdj-vita.jpeg";
 import pdjPanneau from "@/assets/real-pdj-panneau.jpeg";
 import pdjFitness from "@/assets/real-pdj-fitness.jpg";
@@ -63,6 +67,10 @@ const realisations: Realisation[] = [
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
+  { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
+  { image: intCourante, title: "Installation main courante", category: "Intérieur" },
+  { image: intBiblio, title: "Aménagement bibliothèque", category: "Intérieur" },
+  { image: intPorte, title: "Menuiserie et installation porte", category: "Intérieur" },
   { image: piezometre, title: "Piézomètre", category: "Piézomètre" },
   { image: piezo2, title: "Tube piézométrique", category: "Piézomètre" },
   { image: piezoEtancheite, title: "Étanchéité après enlèvement tubes", category: "Piézomètre" },
