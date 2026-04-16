@@ -23,6 +23,9 @@ import extPergola from "@/assets/real-ext-pergola.jpg";
 import extDrains from "@/assets/real-ext-drains.jpg";
 import extTerrasseSusp from "@/assets/real-ext-terrasse-susp.jpg";
 import extMurPierre from "@/assets/real-ext-mur-pierre.jpg";
+import extBarrieres2 from "@/assets/real-ext-barrieres2.jpg";
+import extPrairie from "@/assets/real-ext-prairie.jpg";
+import extFacade from "@/assets/real-ext-facade.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
@@ -84,6 +87,9 @@ const realisations: Realisation[] = [
   { image: extDrains, title: "Pose de drains et canalisation", category: "Extérieur" },
   { image: extTerrasseSusp, title: "Terrasse suspendue", category: "Extérieur" },
   { image: extMurPierre, title: "Mur en pierre et barrière", category: "Extérieur" },
+  { image: extBarrieres2, title: "Fabrication et pose de barrières", category: "Extérieur" },
+  { image: extPrairie, title: "Création de prairie fleurie", category: "Extérieur" },
+  { image: extFacade, title: "Rénovation de façade", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
