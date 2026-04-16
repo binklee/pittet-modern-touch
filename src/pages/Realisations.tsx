@@ -20,6 +20,7 @@ import autresTarriere from "@/assets/real-autres-tarriere.jpg";
 import autresDalle from "@/assets/real-autres-dalle.jpg";
 import autresCamionnette from "@/assets/real-autres-camionnette.jpg";
 import autresMainCourante from "@/assets/real-autres-main-courante.jpg";
+import autresCarotteuse from "@/assets/real-autres-carotteuse.jpg";
 import extBarrieres from "@/assets/real-ext-barrieres.jpg";
 import extBancs from "@/assets/real-ext-bancs.jpg";
 import extTerrasse2 from "@/assets/real-ext-terrasse2.jpg";
@@ -132,6 +133,7 @@ const realisations: Realisation[] = [
   { image: autresDalle, title: "Dalle en béton", category: "Autres" },
   { image: autresCamionnette, title: "Camionnette et pont basculant", category: "Autres" },
   { image: autresMainCourante, title: "Main courante forgée", category: "Autres" },
+  { image: autresCarotteuse, title: "Forage avec carotteuse", category: "Autres" },
   { image: art1, title: "Fresque d'église", category: "Artistique" },
   { image: art2, title: "Tableau extérieur", category: "Artistique" },
   { image: art3, title: "Sculpture arbre coloré", category: "Artistique" },
