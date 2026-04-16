@@ -16,6 +16,10 @@ import piezo3 from "@/assets/real-piezo-3.jpg";
 import autresOlivier from "@/assets/real-autres-olivier.jpg";
 import autresMachine from "@/assets/real-autres-machine.jpg";
 import autresBienvenue from "@/assets/real-autres-bienvenue.jpg";
+import extBarrieres from "@/assets/real-ext-barrieres.jpg";
+import extBancs from "@/assets/real-ext-bancs.jpg";
+import extTerrasse2 from "@/assets/real-ext-terrasse2.jpg";
+import extPergola from "@/assets/real-ext-pergola.jpg";
 import art1 from "@/assets/real-art-1.jpg";
 import art2 from "@/assets/real-art-2.jpg";
 import art3 from "@/assets/real-art-3.jpg";
@@ -70,6 +74,14 @@ const realisations: Realisation[] = [
     category: "Extérieur",
   },
   { image: heroAmenagement, title: "Ébénisterie sur mesure", category: "Extérieur" },
+  { image: extBarrieres, title: "Barrières en chaîne", category: "Extérieur" },
+  { image: extBancs, title: "Installation de bancs", category: "Extérieur" },
+  { image: extTerrasse2, title: "Terrasse en bois", category: "Extérieur" },
+  { image: extPergola, title: "Pergola", category: "Extérieur" },
+  { image: extBarrieres, title: "Barrières en chaîne", category: "Extérieur" },
+  { image: extBancs, title: "Installation de bancs", category: "Extérieur" },
+  { image: extTerrasse2, title: "Terrasse en bois", category: "Extérieur" },
+  { image: extPergola, title: "Pergola", category: "Extérieur" },
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
