@@ -112,7 +112,7 @@ const realisations: Realisation[] = [
   { image: extPlace2, title: "Aménagement place extérieure", category: "Extérieur" },
   { image: extPlace, title: "Place extérieure", category: "Extérieur" },
   { image: extTerrassement, title: "Terrassement", category: "Extérieur" },
-  { image: extFenetreDetail, title: "Rénovation de fenêtre", category: "Extérieur" },
+  
   { image: intCuisine, title: "Cuisine sur mesure", category: "Intérieur" },
   { image: intSol, title: "Plancher bois", category: "Intérieur" },
   { image: intSurface, title: "Traitement de surface et finitions", category: "Intérieur" },
