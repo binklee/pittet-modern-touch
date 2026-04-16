@@ -61,6 +61,7 @@ const realisations: Realisation[] = [
   { image: pdjFitness, title: "Fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjFitness2, title: "Équipement fitness extérieur", category: "Places de jeux, fitness et parcours Vita" },
   { image: pdjGabarit, title: "Gabarits de contrôle SN EN 1176", category: "Places de jeux, fitness et parcours Vita" },
+  { image: pdjJeuxSol, title: "Jeux au sol pour école", category: "Places de jeux, fitness et parcours Vita" },
   { image: extBanc, title: "Banc extérieur sur mesure", category: "Extérieur" },
   { image: extTerrasse, title: "Terrasse et escalier", category: "Extérieur" },
   {
